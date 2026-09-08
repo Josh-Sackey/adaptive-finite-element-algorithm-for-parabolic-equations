@@ -2,7 +2,7 @@
 
 For a beginner-oriented explanation of the LibTorch implementation and how to
 reuse it in another deal.II program, see
-`NEURAL_NETWORK_IMPLEMENTATION_GUIDE.md`.
+`fig8-quads-nn-figure8/NEURAL_NETWORK_IMPLEMENTATION_GUIDE.md`.
 
 ## Figure 8-aligned variant
 
