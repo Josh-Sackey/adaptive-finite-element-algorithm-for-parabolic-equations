@@ -1,0 +1,28 @@
+# CMake build products
+**/build/
+**/build-*/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+
+# LibTorch installations, backups, archives, and project-local symlinks
+**/third_party/libtorch
+**/third_party/libtorch/
+**/third_party/libtorch-*/
+**/third_party/*.zip
+
+# Generated simulation output
+**/runs/
+*.vtu
+*.pvtu
+*.pvd
+
+# Authors' separately cloned repository and project-local symlink
+**/authors-reference
+**/authors-reference/
+
+# Editors and operating systems
+.vscode/
+.DS_Store
+Thumbs.db
