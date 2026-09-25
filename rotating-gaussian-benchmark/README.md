@@ -1,8 +1,8 @@
-# Neural-transfer rotating Gaussian on Q1 quadrilaterals
+# Rotating-Gaussian benchmark: classical versus neural transfer
 
 For a beginner-oriented explanation of the LibTorch implementation and how to
 reuse it in another deal.II program, see
-`fig8-quads-nn-figure8/NEURAL_NETWORK_IMPLEMENTATION_GUIDE.md`.
+`NEURAL_NETWORK_IMPLEMENTATION_GUIDE.md` in this directory.
 
 ## Figure 8-aligned variant
 
@@ -23,9 +23,10 @@ The initial LibTorch L-BFGS fit is allowed up to 2,500 iterations, matching
 the paper's observation that its first fit needs more than 2,000 epochs.
 Warm-start fits at later time levels are allowed 100 iterations.
 
-This sibling project implements a quadrilateral analogue of the neural-network
-enhanced adaptive method in Hao, Huang, Yi, and Yin. It leaves the conventional
-`fig8-quads` baseline unchanged.
+This project implements a quadrilateral analogue of the neural-network
+enhanced adaptive method in Hao, Huang, Yi, and Yin. It can run both the
+neural-transfer algorithm and the conventional deal.II `SolutionTransfer`
+baseline from one executable.
 
 Implemented components:
 
@@ -55,22 +56,21 @@ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j1
 ```
 
-Run a short validation (recommended first):
+Run either method, or both methods for a matched comparison:
 
 ```bash
-mkdir -p runs/validation
-cd runs/validation
-../../build/fig8-quads-nn 0.6 0.05
+./build/fig8-quads-nn nn        0.6 1.0 runs/comparison
+./build/fig8-quads-nn classical 0.6 1.0 runs/comparison
+./build/fig8-quads-nn both      0.6 1.0 runs/comparison
 ```
 
-Run the full `T=1` problem:
+The arguments are `mode`, `top_fraction`, `final_time`, and `output_root`.
+To run both methods and regenerate the combined CSV and graph:
 
 ```bash
-mkdir -p runs/full
-cd runs/full
-../../build/fig8-quads-nn 0.6 1.0
+./run_comparison.sh 0.6 1.0 runs/comparison
 ```
 
-The first argument is the top refinement fraction. The second is final time.
-Outputs include `rotating-gaussian.pvd`, `simulation-history.csv`, and
-`neural-training.csv`.
+The retained results are under `runs/comparison/`: separate `nn/` and
+`classical/` ParaView series and histories, a wide time-aligned
+`comparison.csv`, `comparison.svg`, and the complete `run.log`.

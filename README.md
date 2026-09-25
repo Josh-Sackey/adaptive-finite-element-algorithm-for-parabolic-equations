@@ -5,6 +5,22 @@ with deal.II 9.7.1 and Q1 quadrilateral finite elements. It also contains a
 small LibTorch executable used to verify the C++ neural-network dependency
 before it is connected to the finite-element solver.
 
+## Repository map
+
+Start with the folder that matches the question you want to study:
+
+| Directory | Purpose |
+|---|---|
+| `rotating-gaussian-classical/` | Classical Q1 adaptive FEM baseline, Step-26-style solution transfer, and refinement-fraction studies. |
+| `rotating-gaussian-nn-prototype/` | Earlier NN-only transfer prototype plus the paper authors' reference source. Retained for implementation history. |
+| `rotating-gaussian-benchmark/` | Recommended Figure 8 project. Runs both classical and neural transfer and produces matched CSV, VTU/PVD, and comparison plots. |
+| `mixed-afem-nn/` | Separate mixed finite-element neural-transfer experiments. |
+| `step-26/` | Local deal.II Step-26 reference material. |
+
+For current rotating-Gaussian results, use
+`rotating-gaussian-benchmark/README.md`. The similarly named historical
+directories have been renamed so their roles are explicit.
+
 The recommended Windows development environment is **WSL 2 with Ubuntu**.
 Although VS Code runs as a Windows application, the compiler, CMake,
 deal.II, LibTorch, source files, and executable all remain inside Ubuntu.
@@ -81,13 +97,13 @@ cd ~/dealII-projects
 For this project, the expected directory is:
 
 ```text
-/home/<linux-user>/dealII-projects/fig8-quads
+/home/<linux-user>/dealII-projects/rotating-gaussian-classical
 ```
 
 Windows can browse it at:
 
 ```text
-\\wsl.localhost\Ubuntu\home\<linux-user>\dealII-projects\fig8-quads
+\\wsl.localhost\Ubuntu\home\<linux-user>\dealII-projects\rotating-gaussian-classical
 ```
 
 Do not compile the same build directory from both Windows CMake and Ubuntu
@@ -101,7 +117,7 @@ CMake. This project is compiled entirely inside Ubuntu.
 3. In the Ubuntu terminal, open the project:
 
    ```bash
-   cd ~/dealII-projects/fig8-quads
+   cd ~/dealII-projects/rotating-gaussian-classical
    code .
    ```
 
@@ -297,7 +313,7 @@ The following sequence builds both components after deal.II and LibTorch are
 installed:
 
 ```bash
-cd ~/dealII-projects/fig8-quads
+cd ~/dealII-projects/rotating-gaussian-classical
 cmake -S . -B build-libtorch -DCMAKE_BUILD_TYPE=Release
 cmake --build build-libtorch --target torch-smoke-test -j1
 ./build-libtorch/torch-smoke-test

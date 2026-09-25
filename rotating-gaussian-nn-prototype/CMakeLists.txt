@@ -3,7 +3,9 @@ project(fig8_quads_nn LANGUAGES CXX)
 
 find_package(deal.II 9.7.1 REQUIRED HINTS /usr/lib/x86_64-linux-gnu)
 find_package(Torch REQUIRED
-  PATHS ${CMAKE_CURRENT_SOURCE_DIR}/third_party/libtorch
+  PATHS
+    ${CMAKE_CURRENT_SOURCE_DIR}/third_party/libtorch
+    ${CMAKE_CURRENT_SOURCE_DIR}/../rotating-gaussian-classical/third_party/libtorch
   NO_DEFAULT_PATH)
 
 deal_ii_initialize_cached_variables()

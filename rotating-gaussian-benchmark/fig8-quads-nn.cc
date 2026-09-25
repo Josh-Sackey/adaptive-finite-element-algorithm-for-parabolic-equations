@@ -28,6 +28,8 @@
 #include <deal.II/numerics/vector_tools.h>
 
 #include <cmath>
+#include <chrono>
+#include <filesystem>
 #include <fstream>
 #include <iomanip>
 #include <iostream>
@@ -41,6 +43,12 @@ using namespace dealii;
 
 namespace RotatingGaussian
 {
+  enum class TransferMode
+  {
+    classical,
+    neural
+  };
+
   constexpr double width = 500.0;
   constexpr double radius = 0.3;
   constexpr double coordinate_shift = 0.5;
@@ -106,7 +114,10 @@ namespace RotatingGaussian
   class Problem
   {
   public:
-    Problem(const double top_fraction, const double final_time);
+    Problem(const double top_fraction,
+            const double final_time,
+            const TransferMode transfer_mode,
+            const std::string &output_directory);
     void run();
 
   private:
@@ -141,6 +152,9 @@ namespace RotatingGaussian
     std::ofstream history_file;
     std::ofstream training_file;
     NeuralSurrogate surrogate;
+    const TransferMode transfer_mode;
+    const std::string output_directory;
+    std::chrono::steady_clock::time_point run_start;
 
     const double time_step = 0.01;
     const double final_time;
@@ -155,12 +169,16 @@ namespace RotatingGaussian
   };
 
   Problem::Problem(const double requested_top_fraction,
-                   const double requested_final_time)
+                   const double requested_final_time,
+                   const TransferMode requested_transfer_mode,
+                   const std::string &requested_output_directory)
     : fe(1)
     , dof_handler(triangulation)
     , final_time(requested_final_time)
     , top_fraction(requested_top_fraction)
     , bottom_fraction(1.0 - requested_top_fraction)
+    , transfer_mode(requested_transfer_mode)
+    , output_directory(requested_output_directory)
   {}
 
   void Problem::setup_system()
@@ -249,11 +267,16 @@ namespace RotatingGaussian
         cell_matrix = 0;
         cell_rhs = 0;
         fe_values.reinit(cell);
-        std::vector<std::array<double, 2>> points(quadrature.size());
-        for (unsigned int q = 0; q < quadrature.size(); ++q)
-          points[q] = {fe_values.quadrature_point(q)[0],
-                       fe_values.quadrature_point(q)[1]};
-        previous_values = surrogate.values(points);
+        if (transfer_mode == TransferMode::neural)
+          {
+            std::vector<std::array<double, 2>> points(quadrature.size());
+            for (unsigned int q = 0; q < quadrature.size(); ++q)
+              points[q] = {fe_values.quadrature_point(q)[0],
+                           fe_values.quadrature_point(q)[1]};
+            previous_values = surrogate.values(points);
+          }
+        else
+          fe_values.get_function_values(old_solution, previous_values);
         for (unsigned int q = 0; q < quadrature.size(); ++q)
           for (unsigned int i = 0; i < fe.dofs_per_cell; ++i)
             {
@@ -471,11 +494,15 @@ namespace RotatingGaussian
                 << std::setprecision(6) << " L2=" << l2 << " H1=" << h1
                 << std::endl;
 
+    const double elapsed_seconds =
+      std::chrono::duration<double>(std::chrono::steady_clock::now() - run_start)
+        .count();
     history_file << phase << ',' << index << ',' << std::fixed
                  << std::setprecision(8) << time << ',' << top_fraction << ','
                  << bottom_fraction << ',' << triangulation.n_active_cells()
                  << ',' << dof_handler.n_dofs() << ',' << std::scientific
-                 << std::setprecision(12) << l2 << ',' << h1 << '\n';
+                 << std::setprecision(12) << l2 << ',' << h1 << ',' << std::fixed
+                 << std::setprecision(6) << elapsed_seconds << '\n';
     history_file.flush();
   }
 
@@ -497,24 +524,35 @@ namespace RotatingGaussian
     out.add_data_vector(indicator, "error_indicator");
     out.add_data_vector(levels, "refinement_level");
     out.build_patches();
-    const std::string filename = "rotating-gaussian-" +
+    const std::string basename = "rotating-gaussian-" +
                                  Utilities::int_to_string(output_index, 4) + ".vtu";
+    const std::string filename = output_directory + "/" + basename;
     std::ofstream file(filename);
     out.write_vtu(file);
-    pvd_records.emplace_back(time, filename);
-    std::ofstream pvd("rotating-gaussian.pvd");
+    pvd_records.emplace_back(time, basename);
+    std::ofstream pvd(output_directory + "/rotating-gaussian.pvd");
     DataOutBase::write_pvd_record(pvd, pvd_records);
   }
 
   void Problem::run()
   {
-    history_file.open("simulation-history.csv");
+    std::filesystem::create_directories(output_directory);
+    run_start = std::chrono::steady_clock::now();
+    history_file.open(output_directory + "/simulation-history.csv");
     AssertThrow(history_file, ExcMessage("Could not open simulation-history.csv"));
     history_file << "phase,index,time,top_fraction,bottom_fraction,"
-                    "active_cells,degrees_of_freedom,l2_error,h1_seminorm\n";
-    training_file.open("neural-training.csv");
-    AssertThrow(training_file, ExcMessage("Could not open neural-training.csv"));
-    training_file << "time,samples,closure_evaluations,final_mse,seconds\n";
+                    "active_cells,degrees_of_freedom,l2_error,h1_seminorm,"
+                    "elapsed_seconds\n";
+    if (transfer_mode == TransferMode::neural)
+      {
+        training_file.open(output_directory + "/neural-training.csv");
+        AssertThrow(training_file, ExcMessage("Could not open neural-training.csv"));
+        training_file << "time,samples,closure_evaluations,final_mse,seconds\n";
+      }
+
+    std::cout << "Transfer mode: "
+              << (transfer_mode == TransferMode::neural ? "NN" : "classical")
+              << "  output: " << output_directory << std::endl;
 
     GridGenerator::subdivided_hyper_rectangle(triangulation,
                                                {8, 8},
@@ -562,47 +600,70 @@ namespace RotatingGaussian
     solve();
     report_errors("initial_adapted_mesh", 5, 0.0);
     output_results(5, 0.0, recovery_indicators());
-    train_surrogate(0.0);
+    if (transfer_mode == TransferMode::neural)
+      train_surrogate(0.0);
+    else
+      old_solution = solution;
 
     unsigned int output_index = 6;
     const unsigned int n_steps = static_cast<unsigned int>(final_time / time_step);
     for (unsigned int step = 1; step <= n_steps; ++step)
       {
         const double time = step * time_step;
-        dof_handler.clear();
-        triangulation.clear();
-        GridGenerator::subdivided_hyper_rectangle(triangulation,
-                                                   {8, 8},
-                                                   Point<2>(0.0, 0.0),
-                                                   Point<2>(1.0, 1.0));
-        setup_system();
-
         Vector<float> indicators;
-        unsigned int adaptive_iteration = 0;
-        for (; adaptive_iteration < max_adaptive_iterations;
-             ++adaptive_iteration)
+        if (transfer_mode == TransferMode::neural)
           {
+            // The paper's NN algorithm can restart from the same inexpensive
+            // coarse mesh because the surrogate is independent of either mesh.
+            dof_handler.clear();
+            triangulation.clear();
+            GridGenerator::subdivided_hyper_rectangle(triangulation,
+                                                       {8, 8},
+                                                       Point<2>(0.0, 0.0),
+                                                       Point<2>(1.0, 1.0));
+            setup_system();
+            for (unsigned int adaptive_iteration = 0;
+                 adaptive_iteration < max_adaptive_iterations;
+                 ++adaptive_iteration)
+              {
+                assemble_time_step(time);
+                solve();
+                indicators = recovery_indicators();
+                const double relative_estimator =
+                  indicators.l2_norm() / exact_gradient_norm(time);
+                std::cout << "t=" << std::fixed << std::setprecision(2) << time
+                          << " adapt=" << adaptive_iteration + 1
+                          << " cells=" << triangulation.n_active_cells()
+                          << " dofs=" << dof_handler.n_dofs()
+                          << std::scientific << " rel_eta=" << relative_estimator
+                          << std::endl;
+                if (relative_estimator <= estimator_tolerance ||
+                    adaptive_iteration + 1 == max_adaptive_iterations)
+                  break;
+                refine_without_transfer(indicators, top_fraction);
+              }
+          }
+        else
+          {
+            // Conventional adaptive time stepping retains the preceding mesh.
+            // old_solution is moved with deal.II SolutionTransfer whenever the
+            // hierarchy changes in adapt_mesh().
             assemble_time_step(time);
             solve();
             indicators = recovery_indicators();
-            const double relative_estimator =
-              indicators.l2_norm() / exact_gradient_norm(time);
-            std::cout << "t=" << std::fixed << std::setprecision(2) << time
-                      << " adapt=" << adaptive_iteration + 1
-                      << " cells=" << triangulation.n_active_cells()
-                      << " dofs=" << dof_handler.n_dofs()
-                      << std::scientific << " rel_eta=" << relative_estimator
-                      << std::endl;
-            if (relative_estimator <= estimator_tolerance ||
-                adaptive_iteration + 1 == max_adaptive_iterations)
-              break;
-            refine_without_transfer(indicators, top_fraction);
           }
         // Preserve the paper's dt=0.01 and write every computed time level so
         // that the ParaView animation does not skip four solutions per frame.
         output_results(output_index++, time, indicators);
         report_errors("time_step", step, time, step % 5 == 0);
-        train_surrogate(time);
+        if (transfer_mode == TransferMode::neural)
+          train_surrogate(time);
+        else
+          {
+            old_solution = solution;
+            if (step % 5 == 0 && step != n_steps)
+              adapt_mesh();
+          }
       }
   }
 } // namespace RotatingGaussian
@@ -611,14 +672,34 @@ int main(const int argc, char *argv[])
 {
   try
     {
-      const double top_fraction = argc > 1 ? std::stod(argv[1]) : 0.6;
-      const double final_time = argc > 2 ? std::stod(argv[2]) : 1.0;
+      const std::string requested_mode = argc > 1 ? argv[1] : "both";
+      const double top_fraction = argc > 2 ? std::stod(argv[2]) : 0.6;
+      const double final_time = argc > 3 ? std::stod(argv[3]) : 1.0;
+      const std::string output_root = argc > 4 ? argv[4] : "runs/comparison";
       AssertThrow(top_fraction > 0.0 && top_fraction < 1.0,
                   ExcMessage("top_fraction must be strictly between 0 and 1"));
       AssertThrow(final_time > 0.0 && final_time <= 1.0,
                   ExcMessage("final_time must be in (0,1]"));
-      RotatingGaussian::Problem problem(top_fraction, final_time);
-      problem.run();
+      AssertThrow(requested_mode == "nn" || requested_mode == "classical" ||
+                    requested_mode == "both",
+                  ExcMessage("mode must be nn, classical, or both"));
+      if (requested_mode == "nn" || requested_mode == "both")
+        {
+          RotatingGaussian::Problem problem(top_fraction,
+                                            final_time,
+                                            RotatingGaussian::TransferMode::neural,
+                                            output_root + "/nn");
+          problem.run();
+        }
+      if (requested_mode == "classical" || requested_mode == "both")
+        {
+          RotatingGaussian::Problem problem(
+            top_fraction,
+            final_time,
+            RotatingGaussian::TransferMode::classical,
+            output_root + "/classical");
+          problem.run();
+        }
     }
   catch (const std::exception &exc)
     {

@@ -516,3 +516,39 @@ The hidden width and depth remain tunable hyperparameters.
 Use the neural network as a numerical transfer mechanism whose accuracy must
 be monitored together with the FEM error—not as a replacement for the PDE,
 weak formulation, or a posteriori error estimator.
+# Classical versus neural-transfer benchmark
+
+The executable now supports three transfer modes:
+
+```bash
+./build/fig8-quads-nn nn        0.6 1.0 runs/comparison
+./build/fig8-quads-nn classical 0.6 1.0 runs/comparison
+./build/fig8-quads-nn both      0.6 1.0 runs/comparison
+```
+
+The arguments are `mode`, `top_fraction`, `final_time`, and `output_root`.
+The `both` mode runs the two methods independently with the same Q1 element,
+time step, exact data, recovery estimator, and refinement fractions.  Neural
+transfer resets to the coarse mesh and evaluates its trained mesh-free
+surrogate.  Classical transfer retains the preceding hierarchical mesh and
+uses deal.II `SolutionTransfer` when that mesh changes.
+
+For a complete run and plots:
+
+```bash
+./run_comparison.sh 0.6 1.0 runs/comparison
+```
+
+Outputs are separated into `runs/comparison/nn` and
+`runs/comparison/classical`.  `compare_results.py` produces a combined
+`comparison.csv` and `comparison.png` containing error-versus-time,
+degrees-of-freedom-versus-time, and error-versus-DoF plots.  Each history also
+records elapsed wall time.  Because the algorithms intentionally use different
+mesh-transfer strategies, compare both accuracy and cost rather than treating
+equal time levels as equal-work samples.
+
+The combined CSV is written in a wide, time-aligned format: each row is one
+physical time and places the classical and NN cells, DoFs, errors, and elapsed
+times in adjacent columns.  Ratio columns report NN/classical cost and
+classical/NN error improvement; values above one therefore mean greater NN
+cost for a cost ratio or lower NN error for an error-improvement ratio.

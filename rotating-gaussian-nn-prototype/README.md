@@ -2,7 +2,7 @@
 
 This sibling project implements a quadrilateral analogue of the neural-network
 enhanced adaptive method in Hao, Huang, Yi, and Yin. It leaves the conventional
-`fig8-quads` baseline unchanged.
+`rotating-gaussian-classical` baseline unchanged.
 
 Implemented components:
 
