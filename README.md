@@ -14,12 +14,18 @@ Start with the folder that matches the question you want to study:
 | `rotating-gaussian-classical/` | Classical Q1 adaptive FEM baseline, Step-26-style solution transfer, and refinement-fraction studies. |
 | `rotating-gaussian-nn-prototype/` | Earlier NN-only transfer prototype plus the paper authors' reference source. Retained for implementation history. |
 | `rotating-gaussian-benchmark/` | Recommended Figure 8 project. Runs both classical and neural transfer and produces matched CSV, VTU/PVD, and comparison plots. |
+| `rotating-gaussian-transfer-strategy-comparison/` | Three-way study of classical transfer, one NN fit per time level, and repeated NN fitting at every mesh crossing. |
 | `mixed-afem-nn/` | Separate mixed finite-element neural-transfer experiments. |
 | `step-26/` | Local deal.II Step-26 reference material. |
 
 For current rotating-Gaussian results, use
 `rotating-gaussian-benchmark/README.md`. The similarly named historical
 directories have been renamed so their roles are explicit.
+
+For the supervisor-requested training-frequency experiment, use
+`rotating-gaussian-transfer-strategy-comparison/README.md`. Its
+`nn-once-per-time` mode is the recommended strategy and also documents the
+actual behavior of the current Figure 8 benchmark.
 
 The recommended Windows development environment is **WSL 2 with Ubuntu**.
 Although VS Code runs as a Windows application, the compiler, CMake,

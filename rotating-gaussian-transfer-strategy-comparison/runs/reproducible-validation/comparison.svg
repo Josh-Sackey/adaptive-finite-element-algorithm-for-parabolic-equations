@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:sans-serif;fill:#222}.t{font-size:16px;font-weight:bold}.l{font-size:12px}</style>
+<text class="t" x="352.5" y="63" text-anchor="middle">L2 error</text>
+<line x1="120" y1="80" x2="120" y2="365" stroke="#333"/>
+<line x1="120" y1="365" x2="585" y2="365" stroke="#333"/>
+<polyline points="120.00,365.00 236.25,348.71 352.50,334.04 468.75,304.10 585.00,260.57" fill="none" stroke="#1f77b4" stroke-width="2.5"/>
+<polyline points="120.00,156.89 236.25,194.35 352.50,193.36 468.75,173.30 585.00,159.38" fill="none" stroke="#2ca02c" stroke-width="2.5"/>
+<polyline points="120.00,90.36 236.25,132.05 352.50,125.98 468.75,95.38 585.00,80.00" fill="none" stroke="#d62728" stroke-width="2.5"/>
+<line x1="128" y1="96" x2="155" y2="96" stroke="#1f77b4" stroke-width="3"/>
+<text class="l" x="160" y="100">Classical SolutionTransfer</text>
+<line x1="128" y1="114" x2="155" y2="114" stroke="#2ca02c" stroke-width="3"/>
+<text class="l" x="160" y="118">NN once per time level</text>
+<line x1="128" y1="132" x2="155" y2="132" stroke="#d62728" stroke-width="3"/>
+<text class="l" x="160" y="136">NN every crossing</text>
+<text class="l" x="352.5" y="393" text-anchor="middle">Physical time</text>
+<text class="t" x="922.5" y="63" text-anchor="middle">H1 seminorm error</text>
+<line x1="690" y1="80" x2="690" y2="365" stroke="#333"/>
+<line x1="690" y1="365" x2="1155" y2="365" stroke="#333"/>
+<polyline points="690.00,365.00 806.25,314.76 922.50,239.79 1038.75,155.44 1155.00,80.00" fill="none" stroke="#1f77b4" stroke-width="2.5"/>
+<polyline points="690.00,171.96 806.25,184.91 922.50,169.63 1038.75,177.64 1155.00,191.93" fill="none" stroke="#2ca02c" stroke-width="2.5"/>
+<polyline points="690.00,137.57 806.25,151.60 922.50,139.17 1038.75,143.71 1155.00,148.41" fill="none" stroke="#d62728" stroke-width="2.5"/>
+<line x1="698" y1="96" x2="725" y2="96" stroke="#1f77b4" stroke-width="3"/>
+<text class="l" x="730" y="100">Classical SolutionTransfer</text>
+<line x1="698" y1="114" x2="725" y2="114" stroke="#2ca02c" stroke-width="3"/>
+<text class="l" x="730" y="118">NN once per time level</text>
+<line x1="698" y1="132" x2="725" y2="132" stroke="#d62728" stroke-width="3"/>
+<text class="l" x="730" y="136">NN every crossing</text>
+<text class="l" x="922.5" y="393" text-anchor="middle">Physical time</text>
+<text class="t" x="352.5" y="443" text-anchor="middle">Degrees of freedom</text>
+<line x1="120" y1="460" x2="120" y2="745" stroke="#333"/>
+<line x1="120" y1="745" x2="585" y2="745" stroke="#333"/>
+<polyline points="120.00,460.00 236.25,460.00 352.50,460.00 468.75,460.00 585.00,460.00" fill="none" stroke="#1f77b4" stroke-width="2.5"/>
+<polyline points="120.00,741.89 236.25,740.73 352.50,744.93 468.75,741.80 585.00,737.12" fill="none" stroke="#2ca02c" stroke-width="2.5"/>
+<polyline points="120.00,742.09 236.25,740.48 352.50,745.00 468.75,742.32 585.00,740.30" fill="none" stroke="#d62728" stroke-width="2.5"/>
+<line x1="128" y1="476" x2="155" y2="476" stroke="#1f77b4" stroke-width="3"/>
+<text class="l" x="160" y="480">Classical SolutionTransfer</text>
+<line x1="128" y1="494" x2="155" y2="494" stroke="#2ca02c" stroke-width="3"/>
+<text class="l" x="160" y="498">NN once per time level</text>
+<line x1="128" y1="512" x2="155" y2="512" stroke="#d62728" stroke-width="3"/>
+<text class="l" x="160" y="516">NN every crossing</text>
+<text class="l" x="352.5" y="773" text-anchor="middle">Physical time</text>
+<text class="t" x="922.5" y="443" text-anchor="middle">Cumulative runtime (s)</text>
+<line x1="690" y1="460" x2="690" y2="745" stroke="#333"/>
+<line x1="690" y1="745" x2="1155" y2="745" stroke="#333"/>
+<polyline points="690.00,745.00 806.25,727.44 922.50,714.38 1038.75,702.02 1155.00,692.36" fill="none" stroke="#1f77b4" stroke-width="2.5"/>
+<polyline points="690.00,477.49 806.25,476.94 922.50,476.39 1038.75,475.86 1155.00,475.21" fill="none" stroke="#2ca02c" stroke-width="2.5"/>
+<polyline points="690.00,479.60 806.25,474.44 922.50,468.84 1038.75,464.85 1155.00,460.00" fill="none" stroke="#d62728" stroke-width="2.5"/>
+<line x1="698" y1="476" x2="725" y2="476" stroke="#1f77b4" stroke-width="3"/>
+<text class="l" x="730" y="480">Classical SolutionTransfer</text>
+<line x1="698" y1="494" x2="725" y2="494" stroke="#2ca02c" stroke-width="3"/>
+<text class="l" x="730" y="498">NN once per time level</text>
+<line x1="698" y1="512" x2="725" y2="512" stroke="#d62728" stroke-width="3"/>
+<text class="l" x="730" y="516">NN every crossing</text>
+<text class="l" x="922.5" y="773" text-anchor="middle">Physical time</text>
+</svg>

@@ -26,5 +26,7 @@
 
 # Editors and operating systems
 .vscode/
+**/__pycache__/
+*.pyc
 .DS_Store
 Thumbs.db
