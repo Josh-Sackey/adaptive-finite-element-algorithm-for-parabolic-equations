@@ -225,14 +225,118 @@ are listed in the PyTorch installation guide.
 
 ### 3.3 CMake integration used by this project
 
-`CMakeLists.txt` locates the project-local distribution:
+This section changes exactly one file: **`CMakeLists.txt` in the root of your
+C++ project**. Do not enter the following CMake commands in the Ubuntu
+terminal, and do not paste them into a `.cc` or `.h` file.
+
+For example, if the project is stored at:
+
+```text
+/home/your-username/dealII-projects/my-project/
+```
+
+then edit:
+
+```text
+/home/your-username/dealII-projects/my-project/CMakeLists.txt
+```
+
+Before continuing, the directory should look approximately like this:
+
+```text
+my-project/
+|-- CMakeLists.txt             <-- edit this file
+|-- main.cc                    <-- your deal.II program
+|-- neural_surrogate.cc        <-- only if your program uses this file
+|-- neural_surrogate.h         <-- only if your program uses this file
+`-- third_party/
+    `-- libtorch/
+        |-- include/
+        |-- lib/
+        `-- share/cmake/Torch/TorchConfig.cmake
+```
+
+From the project root, confirm that the required LibTorch configuration file
+exists:
+
+```bash
+test -f third_party/libtorch/share/cmake/Torch/TorchConfig.cmake \
+  && echo "TorchConfig.cmake found"
+```
+
+#### 3.3.1 Adding LibTorch to an existing deal.II executable
+
+Open the existing `CMakeLists.txt`. It will already contain an
+`add_executable(...)` command for the deal.II program. Use the **same target
+name** in every later target command.
+
+The complete file can follow this pattern:
 
 ```cmake
+cmake_minimum_required(VERSION 3.18)
+project(my_dealii_project LANGUAGES CXX)
+
+# Find deal.II first.
+find_package(deal.II 9.7.1 REQUIRED
+  HINTS /usr/lib/x86_64-linux-gnu)
+
+# Find the LibTorch folder stored inside this project.
 find_package(Torch REQUIRED
   PATHS ${CMAKE_CURRENT_SOURCE_DIR}/third_party/libtorch
-  NO_DEFAULT_PATH
-)
+  NO_DEFAULT_PATH)
 
+deal_ii_initialize_cached_variables()
+
+# Replace my-program and the source filenames with your real names.
+add_executable(my-program
+  main.cc
+  neural_surrogate.cc)
+
+# Configure this executable for deal.II.
+deal_ii_setup_target(my-program)
+
+# Link and compile this same executable with LibTorch.
+target_link_libraries(my-program PRIVATE ${TORCH_LIBRARIES})
+target_compile_options(my-program PRIVATE ${TORCH_CXX_FLAGS})
+
+set_property(TARGET my-program PROPERTY CXX_STANDARD 17)
+set_property(TARGET my-program PROPERTY CXX_STANDARD_REQUIRED ON)
+```
+
+Make these substitutions:
+
+1. Replace every occurrence of `my-program` with the executable target name
+   from your `add_executable(...)` command.
+2. Replace `main.cc` with the name of your main C++ source file.
+3. Keep `neural_surrogate.cc` only if that file exists and is part of your
+   program. List every required `.cc` file inside `add_executable(...)`.
+
+For example, if the program is declared with:
+
+```cmake
+add_executable(heat-solver heat.cc neural_surrogate.cc)
+```
+
+then all commands must use the target name `heat-solver`:
+
+```cmake
+deal_ii_setup_target(heat-solver)
+target_link_libraries(heat-solver PRIVATE ${TORCH_LIBRARIES})
+target_compile_options(heat-solver PRIVATE ${TORCH_CXX_FLAGS})
+set_property(TARGET heat-solver PROPERTY CXX_STANDARD 17)
+set_property(TARGET heat-solver PROPERTY CXX_STANDARD_REQUIRED ON)
+```
+
+Do not use `torch-smoke-test` in these commands unless that is genuinely the
+name of the executable being configured.
+
+#### 3.3.2 Optional separate smoke-test executable
+
+The repository also contains `torch-smoke-test.cc`. This small program checks
+LibTorch without changing the FEM solver. To build it, add a **second target**
+to the same root `CMakeLists.txt`, after `find_package(Torch ...)`:
+
+```cmake
 add_executable(torch-smoke-test torch-smoke-test.cc)
 target_link_libraries(torch-smoke-test PRIVATE ${TORCH_LIBRARIES})
 target_compile_options(torch-smoke-test PRIVATE ${TORCH_CXX_FLAGS})
@@ -240,8 +344,20 @@ set_property(TARGET torch-smoke-test PROPERTY CXX_STANDARD 17)
 set_property(TARGET torch-smoke-test PROPERTY CXX_STANDARD_REQUIRED ON)
 ```
 
-The separate smoke-test source protects the working FEM solver while checking
-the compiler, C++ ABI, linker, and runtime library paths.
+This block is optional. It requires `torch-smoke-test.cc` to be located beside
+`CMakeLists.txt`. It does not replace the `add_executable(...)` block for the
+actual deal.II solver.
+
+#### 3.3.3 Final check before running CMake
+
+Confirm all four points:
+
+- `CMakeLists.txt` is in the project root.
+- `third_party/libtorch/share/cmake/Torch/TorchConfig.cmake` exists.
+- Every `.cc` file listed by `add_executable(...)` exists in the project.
+- The target name is spelled identically in `add_executable`,
+  `deal_ii_setup_target`, `target_link_libraries`, `target_compile_options`,
+  and `set_property`.
 
 ### 3.4 Build and run the LibTorch smoke test
 
