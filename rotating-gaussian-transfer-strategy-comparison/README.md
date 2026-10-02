@@ -59,3 +59,21 @@ fitting created six times as many fits and did not improve either reported
 error norm in this test. The classical and NN rows also use different mesh
 evolution policies inherited from the Figure 8 benchmark, so runtime alone
 must not be interpreted as a pure transfer-operator comparison.
+
+## Full original-condition result
+
+The full comparison uses `top_fraction=0.6`, `bottom_fraction=0.4`,
+`dt=0.01`, and `T=1.0`, matching the original NN benchmark:
+
+| Method | NN fits | NN training (s) | Total time (s) | Final L2 error | Final H1 seminorm | Final DoFs |
+|---|---:|---:|---:|---:|---:|---:|
+| Classical | 0 | 0.00 | 1.63 | 1.142e-2 | 8.093e-1 | 147 |
+| NN once per time level | 101 | 117.81 | 123.45 | 1.890e-3 | 1.115e-1 | 1,084 |
+| NN every crossing | 701 | 551.34 | 557.99 | 3.858e-3 | 1.317e-1 | 1,059 |
+
+The once-per-time strategy used 600 fewer fits and about 79% less NN training
+time than repeated fitting. It also finished with about half the L2 error and
+15% lower H1-seminorm error. The classical branch remains a mesh-policy
+baseline rather than a controlled transfer-only comparison because it
+coarsens to 147 DoFs while both NN branches rebuild meshes with roughly 1,000
+DoFs at the final time.

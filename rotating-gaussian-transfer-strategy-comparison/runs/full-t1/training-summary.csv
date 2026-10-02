@@ -1,0 +1,4 @@
+method,training_fits,closure_evaluations,training_seconds,final_elapsed_seconds,final_l2_error,final_h1_seminorm,final_dofs
+classical,0,0,0.0,1.625504,1.141972932965e-02,8.093443512917e-01,147
+nn-once-per-time,101,12763,117.813054,123.445392,1.890165149234e-03,1.115035861731e-01,1084
+nn-every-crossing,701,74396,551.344599,557.986576,3.857797477394e-03,1.317005455494e-01,1059
