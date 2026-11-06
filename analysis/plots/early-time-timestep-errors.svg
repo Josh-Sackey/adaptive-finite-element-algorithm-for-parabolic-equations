@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="875" viewBox="0 0 1420 875" role="img" aria-labelledby="title desc">
+<title id="title">Rotating Gaussian: early-time time-step refinement</title>
+<desc id="desc">Early-time L2 and H1 errors with numbered axes and exact final values for every series.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<text x="710.0" y="32.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#202124">Rotating Gaussian: early-time time-step refinement</text>
+<text x="350.0" y="70.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#202124">L2 error</text>
+<rect x="80" y="90" width="540" height="350" fill="none" stroke="#777"/>
+<line x1="80.0" y1="90" x2="80.0" y2="440" stroke="#e5e7eb"/>
+<text x="80.0" y="459.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">0.00</text>
+<line x1="188.0" y1="90" x2="188.0" y2="440" stroke="#e5e7eb"/>
+<text x="188.0" y="459.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">0.01</text>
+<line x1="296.0" y1="90" x2="296.0" y2="440" stroke="#e5e7eb"/>
+<text x="296.0" y="459.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">0.02</text>
+<line x1="404.0" y1="90" x2="404.0" y2="440" stroke="#e5e7eb"/>
+<text x="404.0" y="459.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">0.03</text>
+<line x1="512.0" y1="90" x2="512.0" y2="440" stroke="#e5e7eb"/>
+<text x="512.0" y="459.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">0.04</text>
+<line x1="620.0" y1="90" x2="620.0" y2="440" stroke="#e5e7eb"/>
+<text x="620.0" y="459.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">0.05</text>
+<line x1="80" y1="440.0" x2="620" y2="440.0" stroke="#e5e7eb"/>
+<text x="72.0" y="444.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">7.8e-05</text>
+<line x1="80" y1="352.5" x2="620" y2="352.5" stroke="#e5e7eb"/>
+<text x="72.0" y="356.5" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">2.5e-04</text>
+<line x1="80" y1="265.0" x2="620" y2="265.0" stroke="#e5e7eb"/>
+<text x="72.0" y="269.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">8.3e-04</text>
+<line x1="80" y1="177.5" x2="620" y2="177.5" stroke="#e5e7eb"/>
+<text x="72.0" y="181.5" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">2.7e-03</text>
+<line x1="80" y1="90.0" x2="620" y2="90.0" stroke="#e5e7eb"/>
+<text x="72.0" y="94.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">8.8e-03</text>
+<text x="350.0" y="482.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">Physical time</text>
+<text x="23.0" y="265.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124" transform="rotate(-90 23 265.0)">L2 error</text>
+<polyline points="165.26,300.61 278.95,289.91 392.63,280.27 506.32,260.60 620.00,232.00" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="165.26" cy="300.61" r="2.2" fill="#2563eb"/>
+<circle cx="278.95" cy="289.91" r="2.2" fill="#2563eb"/>
+<circle cx="392.63" cy="280.27" r="2.2" fill="#2563eb"/>
+<circle cx="506.32" cy="260.60" r="2.2" fill="#2563eb"/>
+<circle cx="620.00" cy="232.00" r="2.2" fill="#2563eb"/>
+<polyline points="165.26,163.89 278.95,188.50 392.63,187.85 506.32,174.67 620.00,165.52" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="8,5"/>
+<circle cx="165.26" cy="163.89" r="2.2" fill="#2563eb"/>
+<circle cx="278.95" cy="188.50" r="2.2" fill="#2563eb"/>
+<circle cx="392.63" cy="187.85" r="2.2" fill="#2563eb"/>
+<circle cx="506.32" cy="174.67" r="2.2" fill="#2563eb"/>
+<circle cx="620.00" cy="165.52" r="2.2" fill="#2563eb"/>
+<polyline points="108.42,358.45 165.26,344.68 222.11,339.42 278.95,334.50 335.79,327.01 392.63,315.10 449.47,298.92 506.32,280.30 563.16,260.99 620.00,241.82" fill="none" stroke="#ea580c" stroke-width="2.5"/>
+<circle cx="108.42" cy="358.45" r="2.2" fill="#ea580c"/>
+<circle cx="165.26" cy="344.68" r="2.2" fill="#ea580c"/>
+<circle cx="222.11" cy="339.42" r="2.2" fill="#ea580c"/>
+<circle cx="278.95" cy="334.50" r="2.2" fill="#ea580c"/>
+<circle cx="335.79" cy="327.01" r="2.2" fill="#ea580c"/>
+<circle cx="392.63" cy="315.10" r="2.2" fill="#ea580c"/>
+<circle cx="449.47" cy="298.92" r="2.2" fill="#ea580c"/>
+<circle cx="506.32" cy="280.30" r="2.2" fill="#ea580c"/>
+<circle cx="563.16" cy="260.99" r="2.2" fill="#ea580c"/>
+<circle cx="620.00" cy="241.82" r="2.2" fill="#ea580c"/>
+<polyline points="108.42,133.42 165.26,155.93 222.11,148.06 278.95,157.66 335.79,158.80 392.63,156.30 449.47,149.18 506.32,141.54 563.16,146.56 620.00,148.53" fill="none" stroke="#ea580c" stroke-width="2.5" stroke-dasharray="8,5"/>
+<circle cx="108.42" cy="133.42" r="2.2" fill="#ea580c"/>
+<circle cx="165.26" cy="155.93" r="2.2" fill="#ea580c"/>
+<circle cx="222.11" cy="148.06" r="2.2" fill="#ea580c"/>
+<circle cx="278.95" cy="157.66" r="2.2" fill="#ea580c"/>
+<circle cx="335.79" cy="158.80" r="2.2" fill="#ea580c"/>
+<circle cx="392.63" cy="156.30" r="2.2" fill="#ea580c"/>
+<circle cx="449.47" cy="149.18" r="2.2" fill="#ea580c"/>
+<circle cx="506.32" cy="141.54" r="2.2" fill="#ea580c"/>
+<circle cx="563.16" cy="146.56" r="2.2" fill="#ea580c"/>
+<circle cx="620.00" cy="148.53" r="2.2" fill="#ea580c"/>
+<polyline points="80.00,418.69 108.42,400.38 136.84,393.82 165.26,390.05 193.68,386.93 222.11,383.61 250.53,379.56 278.95,374.30 307.37,367.48 335.79,358.97 364.21,348.90 392.63,337.65 421.05,325.70 449.47,313.51 477.89,301.39 506.32,289.55 534.74,278.09 563.16,267.02 591.58,256.31 620.00,245.94" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+<circle cx="80.00" cy="418.69" r="2.2" fill="#16a34a"/>
+<circle cx="108.42" cy="400.38" r="2.2" fill="#16a34a"/>
+<circle cx="136.84" cy="393.82" r="2.2" fill="#16a34a"/>
+<circle cx="165.26" cy="390.05" r="2.2" fill="#16a34a"/>
+<circle cx="193.68" cy="386.93" r="2.2" fill="#16a34a"/>
+<circle cx="222.11" cy="383.61" r="2.2" fill="#16a34a"/>
+<circle cx="250.53" cy="379.56" r="2.2" fill="#16a34a"/>
+<circle cx="278.95" cy="374.30" r="2.2" fill="#16a34a"/>
+<circle cx="307.37" cy="367.48" r="2.2" fill="#16a34a"/>
+<circle cx="335.79" cy="358.97" r="2.2" fill="#16a34a"/>
+<circle cx="364.21" cy="348.90" r="2.2" fill="#16a34a"/>
+<circle cx="392.63" cy="337.65" r="2.2" fill="#16a34a"/>
+<circle cx="421.05" cy="325.70" r="2.2" fill="#16a34a"/>
+<circle cx="449.47" cy="313.51" r="2.2" fill="#16a34a"/>
+<circle cx="477.89" cy="301.39" r="2.2" fill="#16a34a"/>
+<circle cx="506.32" cy="289.55" r="2.2" fill="#16a34a"/>
+<circle cx="534.74" cy="278.09" r="2.2" fill="#16a34a"/>
+<circle cx="563.16" cy="267.02" r="2.2" fill="#16a34a"/>
+<circle cx="591.58" cy="256.31" r="2.2" fill="#16a34a"/>
+<circle cx="620.00" cy="245.94" r="2.2" fill="#16a34a"/>
+<polyline points="80.00,109.43 108.42,123.08 136.84,129.87 165.26,137.94 193.68,134.96 222.11,138.42 250.53,135.19 278.95,142.42 307.37,138.55 335.79,133.33 364.21,132.95 392.63,132.79 421.05,130.30 449.47,131.11 477.89,126.80 506.32,126.81 534.74,126.23 563.16,125.89 591.58,123.44 620.00,120.46" fill="none" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="8,5"/>
+<circle cx="80.00" cy="109.43" r="2.2" fill="#16a34a"/>
+<circle cx="108.42" cy="123.08" r="2.2" fill="#16a34a"/>
+<circle cx="136.84" cy="129.87" r="2.2" fill="#16a34a"/>
+<circle cx="165.26" cy="137.94" r="2.2" fill="#16a34a"/>
+<circle cx="193.68" cy="134.96" r="2.2" fill="#16a34a"/>
+<circle cx="222.11" cy="138.42" r="2.2" fill="#16a34a"/>
+<circle cx="250.53" cy="135.19" r="2.2" fill="#16a34a"/>
+<circle cx="278.95" cy="142.42" r="2.2" fill="#16a34a"/>
+<circle cx="307.37" cy="138.55" r="2.2" fill="#16a34a"/>
+<circle cx="335.79" cy="133.33" r="2.2" fill="#16a34a"/>
+<circle cx="364.21" cy="132.95" r="2.2" fill="#16a34a"/>
+<circle cx="392.63" cy="132.79" r="2.2" fill="#16a34a"/>
+<circle cx="421.05" cy="130.30" r="2.2" fill="#16a34a"/>
+<circle cx="449.47" cy="131.11" r="2.2" fill="#16a34a"/>
+<circle cx="477.89" cy="126.80" r="2.2" fill="#16a34a"/>
+<circle cx="506.32" cy="126.81" r="2.2" fill="#16a34a"/>
+<circle cx="534.74" cy="126.23" r="2.2" fill="#16a34a"/>
+<circle cx="563.16" cy="125.89" r="2.2" fill="#16a34a"/>
+<circle cx="591.58" cy="123.44" r="2.2" fill="#16a34a"/>
+<circle cx="620.00" cy="120.46" r="2.2" fill="#16a34a"/>
+<text x="1020.0" y="70.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#202124">H1 seminorm error</text>
+<rect x="750" y="90" width="540" height="350" fill="none" stroke="#777"/>
+<line x1="750.0" y1="90" x2="750.0" y2="440" stroke="#e5e7eb"/>
+<text x="750.0" y="459.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">0.00</text>
+<line x1="858.0" y1="90" x2="858.0" y2="440" stroke="#e5e7eb"/>
+<text x="858.0" y="459.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">0.01</text>
+<line x1="966.0" y1="90" x2="966.0" y2="440" stroke="#e5e7eb"/>
+<text x="966.0" y="459.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">0.02</text>
+<line x1="1074.0" y1="90" x2="1074.0" y2="440" stroke="#e5e7eb"/>
+<text x="1074.0" y="459.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">0.03</text>
+<line x1="1182.0" y1="90" x2="1182.0" y2="440" stroke="#e5e7eb"/>
+<text x="1182.0" y="459.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">0.04</text>
+<line x1="1290.0" y1="90" x2="1290.0" y2="440" stroke="#e5e7eb"/>
+<text x="1290.0" y="459.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">0.05</text>
+<line x1="750" y1="440.0" x2="1290" y2="440.0" stroke="#e5e7eb"/>
+<text x="742.0" y="444.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">2.1e-02</text>
+<line x1="750" y1="352.5" x2="1290" y2="352.5" stroke="#e5e7eb"/>
+<text x="742.0" y="356.5" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">3.8e-02</text>
+<line x1="750" y1="265.0" x2="1290" y2="265.0" stroke="#e5e7eb"/>
+<text x="742.0" y="269.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">7.1e-02</text>
+<line x1="750" y1="177.5" x2="1290" y2="177.5" stroke="#e5e7eb"/>
+<text x="742.0" y="181.5" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">1.3e-01</text>
+<line x1="750" y1="90.0" x2="1290" y2="90.0" stroke="#e5e7eb"/>
+<text x="742.0" y="94.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">2.5e-01</text>
+<text x="1020.0" y="482.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">Physical time</text>
+<text x="693.0" y="265.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124" transform="rotate(-90 693 265.0)">H1 seminorm error</text>
+<polyline points="835.26,360.45 948.95,319.69 1062.63,258.85 1176.32,190.41 1290.00,129.20" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="835.26" cy="360.45" r="2.2" fill="#2563eb"/>
+<circle cx="948.95" cy="319.69" r="2.2" fill="#2563eb"/>
+<circle cx="1062.63" cy="258.85" r="2.2" fill="#2563eb"/>
+<circle cx="1176.32" cy="190.41" r="2.2" fill="#2563eb"/>
+<circle cx="1290.00" cy="129.20" r="2.2" fill="#2563eb"/>
+<polyline points="835.26,203.81 948.95,214.32 1062.63,201.93 1176.32,208.42 1290.00,220.02" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="8,5"/>
+<circle cx="835.26" cy="203.81" r="2.2" fill="#2563eb"/>
+<circle cx="948.95" cy="214.32" r="2.2" fill="#2563eb"/>
+<circle cx="1062.63" cy="201.93" r="2.2" fill="#2563eb"/>
+<circle cx="1176.32" cy="208.42" r="2.2" fill="#2563eb"/>
+<circle cx="1290.00" cy="220.02" r="2.2" fill="#2563eb"/>
+<polyline points="778.42,389.98 835.26,373.64 892.11,353.12 948.95,327.92 1005.79,297.20 1062.63,262.24 1119.47,226.18 1176.32,191.67 1233.16,159.65 1290.00,129.71" fill="none" stroke="#ea580c" stroke-width="2.5"/>
+<circle cx="778.42" cy="389.98" r="2.2" fill="#ea580c"/>
+<circle cx="835.26" cy="373.64" r="2.2" fill="#ea580c"/>
+<circle cx="892.11" cy="353.12" r="2.2" fill="#ea580c"/>
+<circle cx="948.95" cy="327.92" r="2.2" fill="#ea580c"/>
+<circle cx="1005.79" cy="297.20" r="2.2" fill="#ea580c"/>
+<circle cx="1062.63" cy="262.24" r="2.2" fill="#ea580c"/>
+<circle cx="1119.47" cy="226.18" r="2.2" fill="#ea580c"/>
+<circle cx="1176.32" cy="191.67" r="2.2" fill="#ea580c"/>
+<circle cx="1233.16" cy="159.65" r="2.2" fill="#ea580c"/>
+<circle cx="1290.00" cy="129.71" r="2.2" fill="#ea580c"/>
+<polyline points="778.42,170.19 835.26,203.43 892.11,209.32 948.95,208.91 1005.79,203.83 1062.63,201.39 1119.47,204.25 1176.32,206.42 1233.16,210.16 1290.00,217.08" fill="none" stroke="#ea580c" stroke-width="2.5" stroke-dasharray="8,5"/>
+<circle cx="778.42" cy="170.19" r="2.2" fill="#ea580c"/>
+<circle cx="835.26" cy="203.43" r="2.2" fill="#ea580c"/>
+<circle cx="892.11" cy="209.32" r="2.2" fill="#ea580c"/>
+<circle cx="948.95" cy="208.91" r="2.2" fill="#ea580c"/>
+<circle cx="1005.79" cy="203.83" r="2.2" fill="#ea580c"/>
+<circle cx="1062.63" cy="201.39" r="2.2" fill="#ea580c"/>
+<circle cx="1119.47" cy="204.25" r="2.2" fill="#ea580c"/>
+<circle cx="1176.32" cy="206.42" r="2.2" fill="#ea580c"/>
+<circle cx="1233.16" cy="210.16" r="2.2" fill="#ea580c"/>
+<circle cx="1290.00" cy="217.08" r="2.2" fill="#ea580c"/>
+<polyline points="750.00,399.43 778.42,394.16 806.84,386.89 835.26,377.96 863.68,367.76 892.11,356.46 920.53,344.01 948.95,330.27 977.37,315.13 1005.79,298.70 1034.21,281.24 1062.63,263.15 1091.05,244.85 1119.47,226.72 1147.89,209.05 1176.32,191.99 1204.74,175.61 1233.16,159.86 1261.58,144.63 1290.00,129.84" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+<circle cx="750.00" cy="399.43" r="2.2" fill="#16a34a"/>
+<circle cx="778.42" cy="394.16" r="2.2" fill="#16a34a"/>
+<circle cx="806.84" cy="386.89" r="2.2" fill="#16a34a"/>
+<circle cx="835.26" cy="377.96" r="2.2" fill="#16a34a"/>
+<circle cx="863.68" cy="367.76" r="2.2" fill="#16a34a"/>
+<circle cx="892.11" cy="356.46" r="2.2" fill="#16a34a"/>
+<circle cx="920.53" cy="344.01" r="2.2" fill="#16a34a"/>
+<circle cx="948.95" cy="330.27" r="2.2" fill="#16a34a"/>
+<circle cx="977.37" cy="315.13" r="2.2" fill="#16a34a"/>
+<circle cx="1005.79" cy="298.70" r="2.2" fill="#16a34a"/>
+<circle cx="1034.21" cy="281.24" r="2.2" fill="#16a34a"/>
+<circle cx="1062.63" cy="263.15" r="2.2" fill="#16a34a"/>
+<circle cx="1091.05" cy="244.85" r="2.2" fill="#16a34a"/>
+<circle cx="1119.47" cy="226.72" r="2.2" fill="#16a34a"/>
+<circle cx="1147.89" cy="209.05" r="2.2" fill="#16a34a"/>
+<circle cx="1176.32" cy="191.99" r="2.2" fill="#16a34a"/>
+<circle cx="1204.74" cy="175.61" r="2.2" fill="#16a34a"/>
+<circle cx="1233.16" cy="159.86" r="2.2" fill="#16a34a"/>
+<circle cx="1261.58" cy="144.63" r="2.2" fill="#16a34a"/>
+<circle cx="1290.00" cy="129.84" r="2.2" fill="#16a34a"/>
+<polyline points="750.00,127.00 778.42,176.00 806.84,186.65 835.26,196.61 863.68,199.89 892.11,208.34 920.53,206.42 948.95,203.42 977.37,200.00 1005.79,192.91 1034.21,197.46 1062.63,198.26 1091.05,196.43 1119.47,198.41 1147.89,196.29 1176.32,202.68 1204.74,203.26 1233.16,205.74 1261.58,210.87 1290.00,209.24" fill="none" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="8,5"/>
+<circle cx="750.00" cy="127.00" r="2.2" fill="#16a34a"/>
+<circle cx="778.42" cy="176.00" r="2.2" fill="#16a34a"/>
+<circle cx="806.84" cy="186.65" r="2.2" fill="#16a34a"/>
+<circle cx="835.26" cy="196.61" r="2.2" fill="#16a34a"/>
+<circle cx="863.68" cy="199.89" r="2.2" fill="#16a34a"/>
+<circle cx="892.11" cy="208.34" r="2.2" fill="#16a34a"/>
+<circle cx="920.53" cy="206.42" r="2.2" fill="#16a34a"/>
+<circle cx="948.95" cy="203.42" r="2.2" fill="#16a34a"/>
+<circle cx="977.37" cy="200.00" r="2.2" fill="#16a34a"/>
+<circle cx="1005.79" cy="192.91" r="2.2" fill="#16a34a"/>
+<circle cx="1034.21" cy="197.46" r="2.2" fill="#16a34a"/>
+<circle cx="1062.63" cy="198.26" r="2.2" fill="#16a34a"/>
+<circle cx="1091.05" cy="196.43" r="2.2" fill="#16a34a"/>
+<circle cx="1119.47" cy="198.41" r="2.2" fill="#16a34a"/>
+<circle cx="1147.89" cy="196.29" r="2.2" fill="#16a34a"/>
+<circle cx="1176.32" cy="202.68" r="2.2" fill="#16a34a"/>
+<circle cx="1204.74" cy="203.26" r="2.2" fill="#16a34a"/>
+<circle cx="1233.16" cy="205.74" r="2.2" fill="#16a34a"/>
+<circle cx="1261.58" cy="210.87" r="2.2" fill="#16a34a"/>
+<circle cx="1290.00" cy="209.24" r="2.2" fill="#16a34a"/>
+<text x="710.0" y="515.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#202124">Final values at t = 0.05</text>
+<text x="235.0" y="552.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#202124">Method</text>
+<text x="655.0" y="552.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#202124">Δt</text>
+<text x="875.0" y="552.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#202124">L2 error</text>
+<text x="1130.0" y="552.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#202124">H1 seminorm error</text>
+<rect x="85" y="562" width="1250" height="34" fill="#f8fafc"/>
+<text x="235.0" y="585.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">Classical (solid)</text>
+<text x="655.0" y="585.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">0.01</text>
+<text x="875.0" y="585.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#202124">1.292e-03</text>
+<text x="1130.0" y="585.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#202124">0.1858</text>
+<text x="235.0" y="624.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">NN once/time (dashed)</text>
+<text x="655.0" y="624.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">0.01</text>
+<text x="875.0" y="624.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#202124">3.170e-03</text>
+<text x="1130.0" y="624.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#202124">0.0976</text>
+<rect x="85" y="640" width="1250" height="34" fill="#f8fafc"/>
+<text x="235.0" y="663.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">Classical (solid)</text>
+<text x="655.0" y="663.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">0.005</text>
+<text x="875.0" y="663.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#202124">1.131e-03</text>
+<text x="1130.0" y="663.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#202124">0.1852</text>
+<text x="235.0" y="702.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">NN once/time (dashed)</text>
+<text x="655.0" y="702.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">0.005</text>
+<text x="875.0" y="702.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#202124">3.988e-03</text>
+<text x="1130.0" y="702.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#202124">0.0997</text>
+<rect x="85" y="718" width="1250" height="34" fill="#f8fafc"/>
+<text x="235.0" y="741.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">Classical (solid)</text>
+<text x="655.0" y="741.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">0.0025</text>
+<text x="875.0" y="741.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#202124">1.070e-03</text>
+<text x="1130.0" y="741.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#202124">0.1850</text>
+<text x="235.0" y="780.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">NN once/time (dashed)</text>
+<text x="655.0" y="780.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">0.0025</text>
+<text x="875.0" y="780.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#202124">5.825e-03</text>
+<text x="1130.0" y="780.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#202124">0.1054</text>
+<text x="710.0" y="845.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">Line color identifies Δt; solid = classical and dashed = NN once per time level.</text>
+</svg>

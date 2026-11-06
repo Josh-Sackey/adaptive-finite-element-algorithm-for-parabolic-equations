@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1040" viewBox="0 0 1500 1040">
+<rect width="100%" height="100%" fill="white"/>
+<text x="750.0" y="38.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="bold" fill="#222">Three-hidden-layer surrogate: width comparison</text>
+<text x="380.0" y="85.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#222">Final L2 error</text>
+<rect x="106" y="115" width="610" height="308" fill="white" stroke="#777"/>
+<line x1="106" y1="423.0" x2="716" y2="423.0" stroke="#ddd"/>
+<text x="96.0" y="428.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">0.00e+00</text>
+<line x1="106" y1="346.0" x2="716" y2="346.0" stroke="#ddd"/>
+<text x="96.0" y="351.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">1.92e-03</text>
+<line x1="106" y1="269.0" x2="716" y2="269.0" stroke="#ddd"/>
+<text x="96.0" y="274.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">3.84e-03</text>
+<line x1="106" y1="192.0" x2="716" y2="192.0" stroke="#ddd"/>
+<text x="96.0" y="197.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">5.76e-03</text>
+<line x1="106" y1="115.0" x2="716" y2="115.0" stroke="#ddd"/>
+<text x="96.0" y="120.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">7.68e-03</text>
+<text x="207.7" y="449.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#222">40 neurons</text>
+<rect x="148.0" y="295.8" width="35.3" height="127.2" fill="#4C78A8" opacity="0.9"/>
+<text x="165.7" y="288.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 165.66666666666669 288.8435936053594)">3.17e-03</text>
+<rect x="190.0" y="263.0" width="35.3" height="160.0" fill="#F58518" opacity="0.9"/>
+<text x="207.7" y="256.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 207.66666666666669 256.04526573910937)">3.99e-03</text>
+<rect x="232.0" y="189.4" width="35.3" height="233.6" fill="#54A24B" opacity="0.9"/>
+<text x="249.7" y="182.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 249.66666666666669 182.35744719720537)">5.82e-03</text>
+<text x="411.0" y="449.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#222">35 neurons</text>
+<rect x="351.4" y="314.4" width="35.3" height="108.6" fill="#4C78A8" opacity="0.9"/>
+<text x="369.0" y="307.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 369.0 307.3656156088964)">2.71e-03</text>
+<rect x="393.4" y="247.4" width="35.3" height="175.6" fill="#F58518" opacity="0.9"/>
+<text x="411.0" y="240.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 411.0 240.42463237375762)">4.38e-03</text>
+<rect x="435.4" y="185.2" width="35.3" height="237.8" fill="#54A24B" opacity="0.9"/>
+<text x="453.0" y="178.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 453.0 178.15903529071718)">5.93e-03</text>
+<text x="614.3" y="449.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#222">30 neurons</text>
+<rect x="554.7" y="210.2" width="35.3" height="212.8" fill="#4C78A8" opacity="0.9"/>
+<text x="572.3" y="203.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 572.3333333333334 203.227477681903)">5.30e-03</text>
+<rect x="596.7" y="252.3" width="35.3" height="170.7" fill="#F58518" opacity="0.9"/>
+<text x="614.3" y="245.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 614.3333333333334 245.2536242006463)">4.26e-03</text>
+<rect x="638.7" y="180.5" width="35.3" height="242.5" fill="#54A24B" opacity="0.9"/>
+<text x="656.3" y="173.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 656.3333333333334 173.48031496062993)">6.05e-03</text>
+<text x="40.0" y="287.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#222" transform="rotate(-90 40 287.5)">L2 error</text>
+<text x="411.0" y="473.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#222">Neurons in each of the three hidden layers</text>
+<rect x="106" y="491" width="18" height="12" fill="#4C78A8"/>
+<text x="131.0" y="503.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">time step dt = 0.01</text>
+<rect x="296" y="491" width="18" height="12" fill="#F58518"/>
+<text x="321.0" y="503.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">time step dt = 0.005</text>
+<rect x="486" y="491" width="18" height="12" fill="#54A24B"/>
+<text x="511.0" y="503.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">time step dt = 0.0025</text>
+<text x="1120.0" y="85.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#222">Final H1 seminorm</text>
+<rect x="846" y="115" width="610" height="308" fill="white" stroke="#777"/>
+<line x1="846" y1="423.0" x2="1456" y2="423.0" stroke="#ddd"/>
+<text x="836.0" y="428.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">0.00e+00</text>
+<line x1="846" y1="346.0" x2="1456" y2="346.0" stroke="#ddd"/>
+<text x="836.0" y="351.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">3.74e-02</text>
+<line x1="846" y1="269.0" x2="1456" y2="269.0" stroke="#ddd"/>
+<text x="836.0" y="274.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">7.48e-02</text>
+<line x1="846" y1="192.0" x2="1456" y2="192.0" stroke="#ddd"/>
+<text x="836.0" y="197.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">1.12e-01</text>
+<line x1="846" y1="115.0" x2="1456" y2="115.0" stroke="#ddd"/>
+<text x="836.0" y="120.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">1.50e-01</text>
+<text x="947.7" y="449.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#222">40 neurons</text>
+<rect x="888.0" y="222.1" width="35.3" height="200.9" fill="#4C78A8" opacity="0.9"/>
+<text x="905.7" y="215.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 905.6666666666666 215.0815200826978)">9.76e-02</text>
+<rect x="930.0" y="217.8" width="35.3" height="205.2" fill="#F58518" opacity="0.9"/>
+<text x="947.7" y="210.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 947.6666666666666 210.84857591198684)">9.97e-02</text>
+<rect x="972.0" y="206.1" width="35.3" height="216.9" fill="#54A24B" opacity="0.9"/>
+<text x="989.7" y="199.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 989.6666666666666 199.11700355144555)">1.05e-01</text>
+<text x="1151.0" y="449.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#222">35 neurons</text>
+<rect x="1091.4" y="214.7" width="35.3" height="208.3" fill="#4C78A8" opacity="0.9"/>
+<text x="1109.0" y="207.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 1109.0 207.67852279252318)">1.01e-01</text>
+<rect x="1133.4" y="218.6" width="35.3" height="204.4" fill="#F58518" opacity="0.9"/>
+<text x="1151.0" y="211.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 1151.0 211.60274863998106)">9.93e-02</text>
+<rect x="1175.4" y="207.0" width="35.3" height="216.0" fill="#54A24B" opacity="0.9"/>
+<text x="1193.0" y="200.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 1193.0 199.97680739488607)">1.05e-01</text>
+<text x="1354.3" y="449.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#222">30 neurons</text>
+<rect x="1294.7" y="203.3" width="35.3" height="219.7" fill="#4C78A8" opacity="0.9"/>
+<text x="1312.3" y="196.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 1312.3333333333335 196.26913530355978)">1.07e-01</text>
+<rect x="1336.7" y="210.7" width="35.3" height="212.3" fill="#F58518" opacity="0.9"/>
+<text x="1354.3" y="203.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 1354.3333333333335 203.66205568915672)">1.03e-01</text>
+<rect x="1378.7" y="180.5" width="35.3" height="242.5" fill="#54A24B" opacity="0.9"/>
+<text x="1396.3" y="173.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 1396.3333333333335 173.4803149606299)">1.18e-01</text>
+<text x="780.0" y="287.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#222" transform="rotate(-90 780 287.5)">H1 seminorm</text>
+<text x="1151.0" y="473.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#222">Neurons in each of the three hidden layers</text>
+<rect x="846" y="491" width="18" height="12" fill="#4C78A8"/>
+<text x="871.0" y="503.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">time step dt = 0.01</text>
+<rect x="1036" y="491" width="18" height="12" fill="#F58518"/>
+<text x="1061.0" y="503.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">time step dt = 0.005</text>
+<rect x="1226" y="491" width="18" height="12" fill="#54A24B"/>
+<text x="1251.0" y="503.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">time step dt = 0.0025</text>
+<text x="380.0" y="545.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#222">Neural-network training time</text>
+<rect x="106" y="575" width="610" height="308" fill="white" stroke="#777"/>
+<line x1="106" y1="883.0" x2="716" y2="883.0" stroke="#ddd"/>
+<text x="96.0" y="888.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">0.00</text>
+<line x1="106" y1="806.0" x2="716" y2="806.0" stroke="#ddd"/>
+<text x="96.0" y="811.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">14.22</text>
+<line x1="106" y1="729.0" x2="716" y2="729.0" stroke="#ddd"/>
+<text x="96.0" y="734.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">28.44</text>
+<line x1="106" y1="652.0" x2="716" y2="652.0" stroke="#ddd"/>
+<text x="96.0" y="657.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">42.65</text>
+<line x1="106" y1="575.0" x2="716" y2="575.0" stroke="#ddd"/>
+<text x="96.0" y="580.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">56.87</text>
+<text x="207.7" y="909.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#222">40 neurons</text>
+<rect x="148.0" y="731.7" width="35.3" height="151.3" fill="#4C78A8" opacity="0.9"/>
+<text x="165.7" y="724.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 165.66666666666669 724.741871045411)">27.93</text>
+<rect x="190.0" y="725.8" width="35.3" height="157.2" fill="#F58518" opacity="0.9"/>
+<text x="207.7" y="718.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 207.66666666666669 718.7661227305573)">29.03</text>
+<rect x="232.0" y="640.5" width="35.3" height="242.5" fill="#54A24B" opacity="0.9"/>
+<text x="249.7" y="633.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 249.66666666666669 633.4803149606299)">44.78</text>
+<text x="411.0" y="909.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#222">35 neurons</text>
+<rect x="351.4" y="735.2" width="35.3" height="147.8" fill="#4C78A8" opacity="0.9"/>
+<text x="369.0" y="728.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 369.0 728.1762052357248)">27.30</text>
+<rect x="393.4" y="725.2" width="35.3" height="157.8" fill="#F58518" opacity="0.9"/>
+<text x="411.0" y="718.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 411.0 718.1829935800206)">29.14</text>
+<rect x="435.4" y="710.0" width="35.3" height="173.0" fill="#54A24B" opacity="0.9"/>
+<text x="453.0" y="703.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 453.0 703.0261468950632)">31.94</text>
+<text x="614.3" y="909.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#222">30 neurons</text>
+<rect x="554.7" y="748.9" width="35.3" height="134.1" fill="#4C78A8" opacity="0.9"/>
+<text x="572.3" y="741.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 572.3333333333334 741.9344084619624)">24.76</text>
+<rect x="596.7" y="733.3" width="35.3" height="149.7" fill="#F58518" opacity="0.9"/>
+<text x="614.3" y="726.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 614.3333333333334 726.2894500487686)">27.64</text>
+<rect x="638.7" y="718.5" width="35.3" height="164.5" fill="#54A24B" opacity="0.9"/>
+<text x="656.3" y="711.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 656.3333333333334 711.4744548740907)">30.38</text>
+<text x="40.0" y="747.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#222" transform="rotate(-90 40 747.5)">Seconds</text>
+<text x="411.0" y="933.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#222">Neurons in each of the three hidden layers</text>
+<rect x="106" y="951" width="18" height="12" fill="#4C78A8"/>
+<text x="131.0" y="963.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">time step dt = 0.01</text>
+<rect x="296" y="951" width="18" height="12" fill="#F58518"/>
+<text x="321.0" y="963.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">time step dt = 0.005</text>
+<rect x="486" y="951" width="18" height="12" fill="#54A24B"/>
+<text x="511.0" y="963.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">time step dt = 0.0025</text>
+<text x="1120.0" y="545.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#222">Final degrees of freedom</text>
+<rect x="846" y="575" width="610" height="308" fill="white" stroke="#777"/>
+<line x1="846" y1="883.0" x2="1456" y2="883.0" stroke="#ddd"/>
+<text x="836.0" y="888.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">0</text>
+<line x1="846" y1="806.0" x2="1456" y2="806.0" stroke="#ddd"/>
+<text x="836.0" y="811.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">531</text>
+<line x1="846" y1="729.0" x2="1456" y2="729.0" stroke="#ddd"/>
+<text x="836.0" y="734.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">1,062</text>
+<line x1="846" y1="652.0" x2="1456" y2="652.0" stroke="#ddd"/>
+<text x="836.0" y="657.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">1,593</text>
+<line x1="846" y1="575.0" x2="1456" y2="575.0" stroke="#ddd"/>
+<text x="836.0" y="580.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">2,123</text>
+<text x="947.7" y="909.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#222">40 neurons</text>
+<rect x="888.0" y="667.7" width="35.3" height="215.3" fill="#4C78A8" opacity="0.9"/>
+<text x="905.7" y="660.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 905.6666666666666 660.7492747617074)">1,484</text>
+<rect x="930.0" y="669.9" width="35.3" height="213.1" fill="#F58518" opacity="0.9"/>
+<text x="947.7" y="662.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 947.6666666666666 662.924989639453)">1,469</text>
+<rect x="972.0" y="665.1" width="35.3" height="217.9" fill="#54A24B" opacity="0.9"/>
+<text x="989.7" y="658.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 989.6666666666666 658.1384169084128)">1,502</text>
+<text x="1151.0" y="909.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#222">35 neurons</text>
+<rect x="1091.4" y="678.8" width="35.3" height="204.2" fill="#4C78A8" opacity="0.9"/>
+<text x="1109.0" y="671.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 1109.0 671.7728968089515)">1,408</text>
+<rect x="1133.4" y="669.2" width="35.3" height="213.8" fill="#F58518" opacity="0.9"/>
+<text x="1151.0" y="662.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 1151.0 662.1997513468712)">1,474</text>
+<rect x="1175.4" y="660.4" width="35.3" height="222.6" fill="#54A24B" opacity="0.9"/>
+<text x="1193.0" y="653.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 1193.0 653.3518441773726)">1,535</text>
+<text x="1354.3" y="909.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#222">30 neurons</text>
+<rect x="1294.7" y="653.2" width="35.3" height="229.8" fill="#4C78A8" opacity="0.9"/>
+<text x="1312.3" y="646.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 1312.3333333333335 646.2445089100704)">1,584</text>
+<rect x="1336.7" y="640.5" width="35.3" height="242.5" fill="#F58518" opacity="0.9"/>
+<text x="1354.3" y="633.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 1354.3333333333335 633.4803149606299)">1,672</text>
+<rect x="1378.7" y="652.1" width="35.3" height="230.9" fill="#54A24B" opacity="0.9"/>
+<text x="1396.3" y="645.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#222" transform="rotate(-35 1396.3333333333335 645.0841276419395)">1,592</text>
+<text x="780.0" y="747.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#222" transform="rotate(-90 780 747.5)">DoFs</text>
+<text x="1151.0" y="933.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#222">Neurons in each of the three hidden layers</text>
+<rect x="846" y="951" width="18" height="12" fill="#4C78A8"/>
+<text x="871.0" y="963.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">time step dt = 0.01</text>
+<rect x="1036" y="951" width="18" height="12" fill="#F58518"/>
+<text x="1061.0" y="963.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">time step dt = 0.005</text>
+<rect x="1226" y="951" width="18" height="12" fill="#54A24B"/>
+<text x="1251.0" y="963.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#222">time step dt = 0.0025</text>
+<text x="750.0" y="1026.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="normal" fill="#222">Exact measured values are printed above every bar.</text>
+</svg>

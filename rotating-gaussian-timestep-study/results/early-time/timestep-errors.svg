@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:sans-serif;fill:#222}.title{font-size:16px;font-weight:bold}.label{font-size:12px}</style>
+<text class="title" x="360.0" y="25" text-anchor="middle">L2 error</text>
+<line x1="130" y1="55" x2="130" y2="390" stroke="#333"/>
+<line x1="130" y1="390" x2="590" y2="390" stroke="#333"/>
+<polyline points="202.63,262.09 299.47,250.50 396.32,240.06 493.16,218.75 590.00,187.77" fill="none" stroke="#1f77b4" stroke-width="2.5"/>
+<polyline points="202.63,113.99 299.47,140.65 396.32,139.95 493.16,125.67 590.00,115.76" fill="none" stroke="#1f77b4" stroke-width="2.5" stroke-dasharray="8,5"/>
+<polyline points="154.21,324.74 202.63,309.83 251.05,304.13 299.47,298.80 347.89,290.68 396.32,277.79 444.74,260.26 493.16,240.09 541.58,219.17 590.00,198.40" fill="none" stroke="#ff7f0e" stroke-width="2.5"/>
+<polyline points="154.21,80.99 202.63,105.37 251.05,96.84 299.47,107.24 347.89,108.48 396.32,105.77 444.74,98.06 493.16,89.78 541.58,95.22 590.00,97.35" fill="none" stroke="#ff7f0e" stroke-width="2.5" stroke-dasharray="8,5"/>
+<polyline points="130.00,390.00 154.21,370.16 178.42,363.06 202.63,358.97 226.84,355.59 251.05,352.00 275.26,347.61 299.47,341.91 323.68,334.53 347.89,325.31 372.11,314.40 396.32,302.21 420.53,289.27 444.74,276.06 468.95,262.93 493.16,250.11 517.37,237.69 541.58,225.70 565.79,214.11 590.00,202.87" fill="none" stroke="#2ca02c" stroke-width="2.5"/>
+<polyline points="130.00,55.00 154.21,69.78 178.42,77.14 202.63,85.89 226.84,82.65 251.05,86.41 275.26,82.90 299.47,90.74 323.68,86.55 347.89,80.89 372.11,80.47 396.32,80.30 420.53,77.61 444.74,78.48 468.95,73.81 493.16,73.83 517.37,73.19 541.58,72.83 565.79,70.17 590.00,66.95" fill="none" stroke="#2ca02c" stroke-width="2.5" stroke-dasharray="8,5"/>
+<text class="label" x="360.0" y="420" text-anchor="middle">Physical time</text>
+<text class="title" x="930.0" y="25" text-anchor="middle">H1 seminorm error</text>
+<line x1="700" y1="55" x2="700" y2="390" stroke="#333"/>
+<line x1="700" y1="390" x2="1160" y2="390" stroke="#333"/>
+<polyline points="772.63,342.07 869.47,291.94 966.32,217.14 1063.16,132.98 1160.00,57.70" fill="none" stroke="#1f77b4" stroke-width="2.5"/>
+<polyline points="772.63,149.46 869.47,162.38 966.32,147.14 1063.16,155.12 1160.00,169.38" fill="none" stroke="#1f77b4" stroke-width="2.5" stroke-dasharray="8,5"/>
+<polyline points="724.21,378.38 772.63,358.28 821.05,333.05 869.47,302.07 917.89,264.29 966.32,221.30 1014.74,176.96 1063.16,134.52 1111.58,95.15 1160.00,58.33" fill="none" stroke="#ff7f0e" stroke-width="2.5"/>
+<polyline points="724.21,108.11 772.63,148.98 821.05,156.22 869.47,155.72 917.89,149.48 966.32,146.48 1014.74,150.00 1063.16,152.66 1111.58,157.26 1160.00,165.77" fill="none" stroke="#ff7f0e" stroke-width="2.5" stroke-dasharray="8,5"/>
+<polyline points="700.00,390.00 724.21,383.51 748.42,374.58 772.63,363.60 796.84,351.06 821.05,337.16 845.26,321.85 869.47,304.95 893.68,286.34 917.89,266.14 942.11,244.67 966.32,222.42 990.53,199.92 1014.74,177.62 1038.95,155.89 1063.16,134.92 1087.37,114.77 1111.58,95.40 1135.79,76.68 1160.00,58.49" fill="none" stroke="#2ca02c" stroke-width="2.5"/>
+<polyline points="700.00,55.00 724.21,115.25 748.42,128.35 772.63,140.60 796.84,144.63 821.05,155.03 845.26,152.66 869.47,148.97 893.68,144.76 917.89,136.05 942.11,141.64 966.32,142.63 990.53,140.38 1014.74,142.81 1038.95,140.20 1063.16,148.06 1087.37,148.78 1111.58,151.83 1135.79,158.13 1160.00,156.12" fill="none" stroke="#2ca02c" stroke-width="2.5" stroke-dasharray="8,5"/>
+<text class="label" x="930.0" y="420" text-anchor="middle">Physical time</text>
+<text class="title" x="600" y="455" text-anchor="middle">Legend</text>
+<line x1="170" y1="480" x2="204" y2="480" stroke="#1f77b4" stroke-width="2.5"/>
+<text class="label" x="212" y="484">Classical SolutionTransfer, dt=0.01</text>
+<line x1="170" y1="502" x2="204" y2="502" stroke="#ff7f0e" stroke-width="2.5"/>
+<text class="label" x="212" y="506">Classical SolutionTransfer, dt=0.005</text>
+<line x1="170" y1="524" x2="204" y2="524" stroke="#2ca02c" stroke-width="2.5"/>
+<text class="label" x="212" y="528">Classical SolutionTransfer, dt=0.0025</text>
+<line x1="730" y1="480" x2="764" y2="480" stroke="#1f77b4" stroke-width="2.5" stroke-dasharray="8,5"/>
+<text class="label" x="772" y="484">NN once per time level, dt=0.01</text>
+<line x1="730" y1="502" x2="764" y2="502" stroke="#ff7f0e" stroke-width="2.5" stroke-dasharray="8,5"/>
+<text class="label" x="772" y="506">NN once per time level, dt=0.005</text>
+<line x1="730" y1="524" x2="764" y2="524" stroke="#2ca02c" stroke-width="2.5" stroke-dasharray="8,5"/>
+<text class="label" x="772" y="528">NN once per time level, dt=0.0025</text>
+</svg>

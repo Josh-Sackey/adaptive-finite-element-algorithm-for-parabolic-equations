@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="980" viewBox="0 0 1460 980" role="img" aria-labelledby="title desc">
+<title id="title">Two versus three hidden layers</title>
+<desc id="desc">Four labeled grouped-bar panels.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<text x="730.0" y="32.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#202124">Two versus three hidden layers</text>
+<text x="360.0" y="65.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#202124">Final L2 error</text>
+<line x1="80" y1="380.0" x2="640" y2="380.0" stroke="#e5e7eb"/>
+<text x="72.0" y="384.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">0.000e+00</text>
+<line x1="80" y1="305.0" x2="640" y2="305.0" stroke="#e5e7eb"/>
+<text x="72.0" y="309.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">3.506e-03</text>
+<line x1="80" y1="230.0" x2="640" y2="230.0" stroke="#e5e7eb"/>
+<text x="72.0" y="234.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">7.011e-03</text>
+<line x1="80" y1="155.0" x2="640" y2="155.0" stroke="#e5e7eb"/>
+<text x="72.0" y="159.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">0.0105</text>
+<line x1="80" y1="80.0" x2="640" y2="80.0" stroke="#e5e7eb"/>
+<text x="72.0" y="84.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">0.0140</text>
+<rect x="80" y="80" width="560" height="300" fill="none" stroke="#777"/>
+<rect x="127.1" y="276.3" width="42.0" height="103.7" fill="#2563eb"/>
+<text x="148.1" y="269.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">4.847e-03</text>
+<rect x="177.5" y="312.2" width="42.0" height="67.8" fill="#ea580c"/>
+<text x="198.5" y="305.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">3.170e-03</text>
+<text x="173.3" y="402.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">Δt=0.01</text>
+<rect x="313.8" y="198.7" width="42.0" height="181.3" fill="#2563eb"/>
+<text x="334.8" y="191.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">8.473e-03</text>
+<rect x="364.2" y="294.7" width="42.0" height="85.3" fill="#ea580c"/>
+<text x="385.2" y="287.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">3.988e-03</text>
+<text x="360.0" y="402.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">Δt=0.005</text>
+<rect x="500.5" y="134.1" width="42.0" height="245.9" fill="#2563eb"/>
+<text x="521.5" y="127.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">0.0115</text>
+<rect x="550.9" y="255.4" width="42.0" height="124.6" fill="#ea580c"/>
+<text x="571.9" y="248.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">5.825e-03</text>
+<text x="546.7" y="402.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">Δt=0.0025</text>
+<text x="360.0" y="425.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">Time-step size</text>
+<text x="1060.0" y="65.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#202124">Final H1 seminorm error</text>
+<line x1="780" y1="380.0" x2="1340" y2="380.0" stroke="#e5e7eb"/>
+<text x="772.0" y="384.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">0.000e+00</text>
+<line x1="780" y1="305.0" x2="1340" y2="305.0" stroke="#e5e7eb"/>
+<text x="772.0" y="309.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">0.0725</text>
+<line x1="780" y1="230.0" x2="1340" y2="230.0" stroke="#e5e7eb"/>
+<text x="772.0" y="234.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">0.1449</text>
+<line x1="780" y1="155.0" x2="1340" y2="155.0" stroke="#e5e7eb"/>
+<text x="772.0" y="159.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">0.2174</text>
+<line x1="780" y1="80.0" x2="1340" y2="80.0" stroke="#e5e7eb"/>
+<text x="772.0" y="84.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">0.2898</text>
+<rect x="780" y="80" width="560" height="300" fill="none" stroke="#777"/>
+<rect x="827.1" y="258.5" width="42.0" height="121.5" fill="#2563eb"/>
+<text x="848.1" y="251.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">0.1174</text>
+<rect x="877.5" y="279.0" width="42.0" height="101.0" fill="#ea580c"/>
+<text x="898.5" y="272.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">0.0976</text>
+<text x="873.3" y="402.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">Δt=0.01</text>
+<rect x="1013.8" y="216.1" width="42.0" height="163.9" fill="#2563eb"/>
+<text x="1034.8" y="209.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">0.1583</text>
+<rect x="1064.2" y="276.8" width="42.0" height="103.2" fill="#ea580c"/>
+<text x="1085.2" y="269.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">0.0997</text>
+<text x="1060.0" y="402.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">Δt=0.005</text>
+<rect x="1200.5" y="134.1" width="42.0" height="245.9" fill="#2563eb"/>
+<text x="1221.5" y="127.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">0.2376</text>
+<rect x="1250.9" y="270.9" width="42.0" height="109.1" fill="#ea580c"/>
+<text x="1271.9" y="263.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">0.1054</text>
+<text x="1246.7" y="402.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">Δt=0.0025</text>
+<text x="1060.0" y="425.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">Time-step size</text>
+<text x="360.0" y="505.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#202124">NN training time</text>
+<line x1="80" y1="820.0" x2="640" y2="820.0" stroke="#e5e7eb"/>
+<text x="72.0" y="824.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">0.00 s</text>
+<line x1="80" y1="745.0" x2="640" y2="745.0" stroke="#e5e7eb"/>
+<text x="72.0" y="749.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">18.63 s</text>
+<line x1="80" y1="670.0" x2="640" y2="670.0" stroke="#e5e7eb"/>
+<text x="72.0" y="674.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">37.27 s</text>
+<line x1="80" y1="595.0" x2="640" y2="595.0" stroke="#e5e7eb"/>
+<text x="72.0" y="599.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">55.90 s</text>
+<line x1="80" y1="520.0" x2="640" y2="520.0" stroke="#e5e7eb"/>
+<text x="72.0" y="524.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">74.54 s</text>
+<rect x="80" y="520" width="560" height="300" fill="none" stroke="#777"/>
+<rect x="127.1" y="574.1" width="42.0" height="245.9" fill="#2563eb"/>
+<text x="148.1" y="567.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">61.10 s</text>
+<rect x="177.5" y="707.6" width="42.0" height="112.4" fill="#ea580c"/>
+<text x="198.5" y="700.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">27.93 s</text>
+<text x="173.3" y="842.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">Δt=0.01</text>
+<rect x="313.8" y="754.6" width="42.0" height="65.4" fill="#2563eb"/>
+<text x="334.8" y="747.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">16.25 s</text>
+<rect x="364.2" y="703.1" width="42.0" height="116.9" fill="#ea580c"/>
+<text x="385.2" y="696.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">29.03 s</text>
+<text x="360.0" y="842.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">Δt=0.005</text>
+<rect x="500.5" y="738.1" width="42.0" height="81.9" fill="#2563eb"/>
+<text x="521.5" y="731.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">20.36 s</text>
+<rect x="550.9" y="639.8" width="42.0" height="180.2" fill="#ea580c"/>
+<text x="571.9" y="632.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">44.78 s</text>
+<text x="546.7" y="842.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">Δt=0.0025</text>
+<text x="360.0" y="865.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">Time-step size</text>
+<text x="1060.0" y="505.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#202124">Final degrees of freedom</text>
+<line x1="780" y1="820.0" x2="1340" y2="820.0" stroke="#e5e7eb"/>
+<text x="772.0" y="824.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">0</text>
+<line x1="780" y1="745.0" x2="1340" y2="745.0" stroke="#e5e7eb"/>
+<text x="772.0" y="749.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">644</text>
+<line x1="780" y1="670.0" x2="1340" y2="670.0" stroke="#e5e7eb"/>
+<text x="772.0" y="674.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">1,289</text>
+<line x1="780" y1="595.0" x2="1340" y2="595.0" stroke="#e5e7eb"/>
+<text x="772.0" y="599.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">1,933</text>
+<line x1="780" y1="520.0" x2="1340" y2="520.0" stroke="#e5e7eb"/>
+<text x="772.0" y="524.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#202124">2,578</text>
+<rect x="780" y="520" width="560" height="300" fill="none" stroke="#777"/>
+<rect x="827.1" y="630.4" width="42.0" height="189.6" fill="#2563eb"/>
+<text x="848.1" y="623.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">1,629</text>
+<rect x="877.5" y="647.3" width="42.0" height="172.7" fill="#ea580c"/>
+<text x="898.5" y="640.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">1,484</text>
+<text x="873.3" y="842.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">Δt=0.01</text>
+<rect x="1013.8" y="595.6" width="42.0" height="224.4" fill="#2563eb"/>
+<text x="1034.8" y="588.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">1,928</text>
+<rect x="1064.2" y="649.0" width="42.0" height="171.0" fill="#ea580c"/>
+<text x="1085.2" y="642.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">1,469</text>
+<text x="1060.0" y="842.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">Δt=0.005</text>
+<rect x="1200.5" y="574.1" width="42.0" height="245.9" fill="#2563eb"/>
+<text x="1221.5" y="567.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">2,113</text>
+<rect x="1250.9" y="645.2" width="42.0" height="174.8" fill="#ea580c"/>
+<text x="1271.9" y="638.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#202124">1,502</text>
+<text x="1246.7" y="842.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#202124">Δt=0.0025</text>
+<text x="1060.0" y="865.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">Time-step size</text>
+<rect x="340" y="943" width="18" height="12" fill="#2563eb"/>
+<text x="366.0" y="955.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">2-40-40-1</text>
+<rect x="640" y="943" width="18" height="12" fill="#ea580c"/>
+<text x="666.0" y="955.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#202124">2-40-40-40-1</text>
+</svg>

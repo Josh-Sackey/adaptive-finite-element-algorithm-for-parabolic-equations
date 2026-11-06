@@ -1,0 +1,17 @@
+# Offline Apptainer definition. First create allen-cahn-newton-nn.tar with
+# scripts/export-docker.sh, then run:
+#   apptainer build allen-cahn-newton-nn.sif Apptainer.def
+Bootstrap: docker-archive
+From: allen-cahn-newton-nn.tar
+
+%labels
+    Author Joshua Sackey
+    Description deal.II-LibTorch Allen-Cahn Example 4.7
+
+%runscript
+    exec /opt/allen-cahn/bin/run-simulation "$@"
+
+%test
+    test -x /opt/allen-cahn/bin/allen-cahn-newton-nn
+    test -x /opt/allen-cahn/bin/run-simulation
+

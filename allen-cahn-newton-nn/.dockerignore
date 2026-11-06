@@ -1,0 +1,9 @@
+build/
+runs/
+.git/
+third_party/
+*.sif
+*.tar
+*.tar.gz
+container-output/
+
