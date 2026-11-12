@@ -1,0 +1,1431 @@
+Initial adapt 1 cells=64 dofs=81 eta=2.39211
+Initial adapt 2 cells=88 dofs=111 eta=3.02724
+Initial adapt 3 cells=142 dofs=177 eta=4.11618
+Initial adapt 4 cells=235 dofs=286 eta=4.26938
+Initial adapt 5 cells=376 dofs=458 eta=4.49854
+  NN samples=458 evaluations=3026 loss=9.933650e-06 seconds=7.789920
+Time step 1/200 t=0.0001
+  Newton 0 residual=1.0649e+02 relative=1.0000e+00
+  Newton 1 residual=2.1326e+02 relative=2.0025e+00
+  Newton 2 residual=5.9182e+01 relative=5.5573e-01
+  Newton 3 residual=1.5097e+01 relative=1.4176e-01
+  Newton 4 residual=2.7934e+00 relative=2.6230e-02
+  Newton 5 residual=1.8733e-01 relative=1.7591e-03
+  Newton 6 residual=1.0373e-03 relative=9.7401e-06
+  Newton 7 residual=3.2151e-08 relative=3.0190e-10
+  Adapt 1 cells=376 dofs=458 relative_eta=5.0488e-01
+  Newton 0 residual=1.0379e+02 relative=1.0000e+00
+  Newton 1 residual=2.9253e+02 relative=2.8185e+00
+  Newton 2 residual=8.4418e+01 relative=8.1337e-01
+  Newton 3 residual=2.3805e+01 relative=2.2936e-01
+  Newton 4 residual=6.0127e+00 relative=5.7932e-02
+  Newton 5 residual=9.8054e-01 relative=9.4475e-03
+  Newton 6 residual=4.5142e-02 relative=4.3495e-04
+  Newton 7 residual=1.0913e-04 relative=1.0515e-06
+  Newton 8 residual=6.3901e-10 relative=6.1568e-12
+  Adapt 2 cells=577 dofs=706 relative_eta=4.0567e-01
+  NN samples=706 evaluations=101 loss=2.3444e-03 seconds=0.1947
+Time step 2/200 t=0.0003
+  Newton 0 residual=1.4313e+02 relative=1.0000e+00
+  Newton 1 residual=1.0494e+01 relative=7.3314e-02
+  Newton 2 residual=9.0892e-02 relative=6.3501e-04
+  Newton 3 residual=1.4154e-04 relative=9.8888e-07
+  Newton 4 residual=1.3702e-09 relative=9.5729e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0298e-01
+  NN samples=706 evaluations=101 loss=1.5877e-03 seconds=0.2007
+Time step 3/200 t=0.0004
+  Newton 0 residual=7.1765e+01 relative=1.0000e+00
+  Newton 1 residual=2.8969e+00 relative=4.0366e-02
+  Newton 2 residual=2.0182e-01 relative=2.8122e-03
+  Newton 3 residual=2.5359e-03 relative=3.5336e-05
+  Newton 4 residual=4.2464e-07 relative=5.9171e-09
+  Newton 5 residual=3.5278e-13 relative=4.9158e-15
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0620e-01
+  NN samples=706 evaluations=101 loss=1.2257e-03 seconds=0.1922
+Time step 4/200 t=0.0006
+  Newton 0 residual=6.9761e+01 relative=1.0000e+00
+  Newton 1 residual=1.8692e+00 relative=2.6795e-02
+  Newton 2 residual=1.7763e-02 relative=2.5462e-04
+  Newton 3 residual=1.3782e-05 relative=1.9755e-07
+  Newton 4 residual=1.4755e-11 relative=2.1150e-13
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0834e-01
+  NN samples=706 evaluations=102 loss=8.6318e-04 seconds=0.1933
+Time step 5/200 t=0.0007
+  Newton 0 residual=5.9366e+01 relative=1.0000e+00
+  Newton 1 residual=1.0986e+00 relative=1.8506e-02
+  Newton 2 residual=3.5783e-03 relative=6.0275e-05
+  Newton 3 residual=7.3036e-07 relative=1.2303e-08
+  Newton 4 residual=3.0360e-13 relative=5.1141e-15
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0879e-01
+  NN samples=706 evaluations=102 loss=6.3084e-04 seconds=0.1929
+Time step 6/200 t=0.0009
+  Newton 0 residual=5.6021e+01 relative=1.0000e+00
+  Newton 1 residual=9.9408e-01 relative=1.7745e-02
+  Newton 2 residual=1.4593e-03 relative=2.6050e-05
+  Newton 3 residual=1.3444e-07 relative=2.3998e-09
+  Newton 4 residual=3.9534e-13 relative=7.0570e-15
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0777e-01
+  NN samples=706 evaluations=102 loss=5.2412e-04 seconds=0.1760
+Time step 7/200 t=0.0010
+  Newton 0 residual=4.7486e+01 relative=1.0000e+00
+  Newton 1 residual=5.9222e-01 relative=1.2471e-02
+  Newton 2 residual=8.2264e-04 relative=1.7324e-05
+  Newton 3 residual=3.8249e-08 relative=8.0548e-10
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0647e-01
+  NN samples=706 evaluations=103 loss=4.6211e-04 seconds=0.1795
+Time step 8/200 t=0.0012
+  Newton 0 residual=4.2782e+01 relative=1.0000e+00
+  Newton 1 residual=6.6555e-01 relative=1.5557e-02
+  Newton 2 residual=6.7356e-04 relative=1.5744e-05
+  Newton 3 residual=2.5020e-08 relative=5.8482e-10
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0574e-01
+  NN samples=706 evaluations=103 loss=4.2448e-04 seconds=0.2478
+Time step 9/200 t=0.0013
+  Newton 0 residual=3.5742e+01 relative=1.0000e+00
+  Newton 1 residual=4.0738e-01 relative=1.1398e-02
+  Newton 2 residual=5.5106e-04 relative=1.5418e-05
+  Newton 3 residual=1.9152e-08 relative=5.3583e-10
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0496e-01
+  NN samples=706 evaluations=102 loss=3.8596e-04 seconds=0.1992
+Time step 10/200 t=0.0015
+  Newton 0 residual=4.0251e+01 relative=1.0000e+00
+  Newton 1 residual=5.2152e-01 relative=1.2956e-02
+  Newton 2 residual=5.2233e-04 relative=1.2977e-05
+  Newton 3 residual=1.9012e-08 relative=4.7232e-10
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0458e-01
+  NN samples=706 evaluations=102 loss=3.5576e-04 seconds=0.1896
+Time step 11/200 t=0.0016
+  Newton 0 residual=3.8278e+01 relative=1.0000e+00
+  Newton 1 residual=4.4713e-01 relative=1.1681e-02
+  Newton 2 residual=4.9763e-04 relative=1.3000e-05
+  Newton 3 residual=1.9425e-08 relative=5.0747e-10
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0451e-01
+  NN samples=706 evaluations=102 loss=3.2868e-04 seconds=0.1977
+Time step 12/200 t=0.0018
+  Newton 0 residual=3.4038e+01 relative=1.0000e+00
+  Newton 1 residual=3.9087e-01 relative=1.1483e-02
+  Newton 2 residual=5.6460e-04 relative=1.6587e-05
+  Newton 3 residual=2.6600e-08 relative=7.8146e-10
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0469e-01
+  NN samples=706 evaluations=102 loss=3.0698e-04 seconds=0.1857
+Time step 13/200 t=0.0019
+  Newton 0 residual=2.8522e+01 relative=1.0000e+00
+  Newton 1 residual=2.8663e-01 relative=1.0049e-02
+  Newton 2 residual=6.9714e-04 relative=2.4442e-05
+  Newton 3 residual=4.3247e-08 relative=1.5163e-09
+  Newton 4 residual=3.1480e-13 relative=1.1037e-14
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0517e-01
+  NN samples=706 evaluations=102 loss=2.9085e-04 seconds=0.2038
+Time step 14/200 t=0.0021
+  Newton 0 residual=2.6570e+01 relative=1.0000e+00
+  Newton 1 residual=2.6551e-01 relative=9.9929e-03
+  Newton 2 residual=1.2717e-03 relative=4.7862e-05
+  Newton 3 residual=1.6431e-07 relative=6.1840e-09
+  Newton 4 residual=3.6140e-13 relative=1.3602e-14
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0575e-01
+  NN samples=706 evaluations=102 loss=2.7621e-04 seconds=0.1895
+Time step 15/200 t=0.0022
+  Newton 0 residual=2.3937e+01 relative=1.0000e+00
+  Newton 1 residual=2.3787e-01 relative=9.9374e-03
+  Newton 2 residual=1.4031e-03 relative=5.8617e-05
+  Newton 3 residual=2.0818e-07 relative=8.6970e-09
+  Newton 4 residual=3.6381e-13 relative=1.5199e-14
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0670e-01
+  NN samples=706 evaluations=102 loss=2.6967e-04 seconds=0.1913
+Time step 16/200 t=0.0024
+  Newton 0 residual=2.3739e+01 relative=1.0000e+00
+  Newton 1 residual=2.1290e-01 relative=8.9686e-03
+  Newton 2 residual=1.0491e-03 relative=4.4195e-05
+  Newton 3 residual=1.1098e-07 relative=4.6752e-09
+  Newton 4 residual=3.8282e-13 relative=1.6127e-14
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0711e-01
+  NN samples=706 evaluations=102 loss=2.5708e-04 seconds=0.1990
+Time step 17/200 t=0.0025
+  Newton 0 residual=2.1127e+01 relative=1.0000e+00
+  Newton 1 residual=1.9420e-01 relative=9.1922e-03
+  Newton 2 residual=4.4006e-04 relative=2.0829e-05
+  Newton 3 residual=1.7484e-08 relative=8.2756e-10
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0804e-01
+  NN samples=706 evaluations=102 loss=2.4464e-04 seconds=0.2036
+Time step 18/200 t=0.0027
+  Newton 0 residual=1.8598e+01 relative=1.0000e+00
+  Newton 1 residual=1.5673e-01 relative=8.4275e-03
+  Newton 2 residual=2.3691e-04 relative=1.2739e-05
+  Newton 3 residual=3.9758e-09 relative=2.1378e-10
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0836e-01
+  NN samples=706 evaluations=102 loss=2.3290e-04 seconds=0.2010
+Time step 19/200 t=0.0028
+  Newton 0 residual=1.8878e+01 relative=1.0000e+00
+  Newton 1 residual=1.6254e-01 relative=8.6100e-03
+  Newton 2 residual=3.2365e-04 relative=1.7145e-05
+  Newton 3 residual=1.3362e-08 relative=7.0784e-10
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0905e-01
+  NN samples=706 evaluations=102 loss=2.1900e-04 seconds=0.2084
+Time step 20/200 t=0.0030
+  Newton 0 residual=2.1517e+01 relative=1.0000e+00
+  Newton 1 residual=1.7652e-01 relative=8.2037e-03
+  Newton 2 residual=4.7804e-04 relative=2.2217e-05
+  Newton 3 residual=2.9752e-08 relative=1.3827e-09
+  Newton 4 residual=3.3377e-13 relative=1.5512e-14
+  Adapt 1 cells=577 dofs=706 relative_eta=4.0932e-01
+  NN samples=706 evaluations=102 loss=2.0879e-04 seconds=0.1965
+Time step 21/200 t=0.0031
+  Newton 0 residual=2.0180e+01 relative=1.0000e+00
+  Newton 1 residual=1.6569e-01 relative=8.2106e-03
+  Newton 2 residual=2.5699e-04 relative=1.2735e-05
+  Newton 3 residual=7.9508e-09 relative=3.9399e-10
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1004e-01
+  NN samples=706 evaluations=102 loss=2.0285e-04 seconds=0.1951
+Time step 22/200 t=0.0033
+  Newton 0 residual=2.1726e+01 relative=1.0000e+00
+  Newton 1 residual=1.8815e-01 relative=8.6599e-03
+  Newton 2 residual=1.1647e-04 relative=5.3609e-06
+  Newton 3 residual=1.2355e-09 relative=5.6865e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1045e-01
+  NN samples=706 evaluations=102 loss=1.9977e-04 seconds=0.1968
+Time step 23/200 t=0.0034
+  Newton 0 residual=1.7725e+01 relative=1.0000e+00
+  Newton 1 residual=1.4388e-01 relative=8.1174e-03
+  Newton 2 residual=5.3885e-05 relative=3.0401e-06
+  Newton 3 residual=7.8557e-11 relative=4.4320e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1097e-01
+  NN samples=706 evaluations=103 loss=1.9744e-04 seconds=0.1971
+Time step 24/200 t=0.0036
+  Newton 0 residual=2.2768e+01 relative=1.0000e+00
+  Newton 1 residual=1.9354e-01 relative=8.5005e-03
+  Newton 2 residual=5.5478e-05 relative=2.4367e-06
+  Newton 3 residual=9.9009e-11 relative=4.3487e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1112e-01
+  NN samples=706 evaluations=102 loss=1.8717e-04 seconds=0.2039
+Time step 25/200 t=0.0037
+  Newton 0 residual=1.7701e+01 relative=1.0000e+00
+  Newton 1 residual=1.3026e-01 relative=7.3590e-03
+  Newton 2 residual=5.4369e-05 relative=3.0715e-06
+  Newton 3 residual=1.0386e-10 relative=5.8676e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1133e-01
+  NN samples=706 evaluations=102 loss=1.7869e-04 seconds=0.2012
+Time step 26/200 t=0.0039
+  Newton 0 residual=1.8020e+01 relative=1.0000e+00
+  Newton 1 residual=1.2509e-01 relative=6.9419e-03
+  Newton 2 residual=5.8075e-05 relative=3.2228e-06
+  Newton 3 residual=1.3258e-10 relative=7.3575e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1142e-01
+  NN samples=706 evaluations=102 loss=1.7189e-04 seconds=0.1876
+Time step 27/200 t=0.0040
+  Newton 0 residual=1.2985e+01 relative=1.0000e+00
+  Newton 1 residual=9.3319e-02 relative=7.1868e-03
+  Newton 2 residual=5.8889e-05 relative=4.5352e-06
+  Newton 3 residual=1.4344e-10 relative=1.1047e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1183e-01
+  NN samples=706 evaluations=102 loss=1.6424e-04 seconds=0.1948
+Time step 28/200 t=0.0042
+  Newton 0 residual=1.6875e+01 relative=1.0000e+00
+  Newton 1 residual=1.0942e-01 relative=6.4838e-03
+  Newton 2 residual=6.1550e-05 relative=3.6473e-06
+  Newton 3 residual=1.5719e-10 relative=9.3146e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1224e-01
+  NN samples=706 evaluations=102 loss=1.5964e-04 seconds=0.1937
+Time step 29/200 t=0.0043
+  Newton 0 residual=1.1445e+01 relative=1.0000e+00
+  Newton 1 residual=8.2796e-02 relative=7.2342e-03
+  Newton 2 residual=6.4769e-05 relative=5.6591e-06
+  Newton 3 residual=1.8504e-10 relative=1.6167e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1267e-01
+  NN samples=706 evaluations=102 loss=1.5500e-04 seconds=0.1869
+Time step 30/200 t=0.0045
+  Newton 0 residual=1.3853e+01 relative=1.0000e+00
+  Newton 1 residual=9.3430e-02 relative=6.7445e-03
+  Newton 2 residual=6.6111e-05 relative=4.7725e-06
+  Newton 3 residual=2.0010e-10 relative=1.4445e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1309e-01
+  NN samples=706 evaluations=102 loss=1.4908e-04 seconds=0.2102
+Time step 31/200 t=0.0046
+  Newton 0 residual=1.1703e+01 relative=1.0000e+00
+  Newton 1 residual=8.1257e-02 relative=6.9431e-03
+  Newton 2 residual=6.5774e-05 relative=5.6202e-06
+  Newton 3 residual=1.9788e-10 relative=1.6908e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1353e-01
+  NN samples=706 evaluations=102 loss=1.4697e-04 seconds=0.1988
+Time step 32/200 t=0.0048
+  Newton 0 residual=9.7293e+00 relative=1.0000e+00
+  Newton 1 residual=7.7536e-02 relative=7.9693e-03
+  Newton 2 residual=6.3393e-05 relative=6.5157e-06
+  Newton 3 residual=1.8823e-10 relative=1.9347e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1386e-01
+  NN samples=706 evaluations=104 loss=1.4534e-04 seconds=0.2068
+Time step 33/200 t=0.0049
+  Newton 0 residual=1.2090e+01 relative=1.0000e+00
+  Newton 1 residual=8.0832e-02 relative=6.6857e-03
+  Newton 2 residual=6.3955e-05 relative=5.2898e-06
+  Newton 3 residual=2.0279e-10 relative=1.6773e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1410e-01
+  NN samples=706 evaluations=102 loss=1.4235e-04 seconds=0.1977
+Time step 34/200 t=0.0051
+  Newton 0 residual=1.3739e+01 relative=1.0000e+00
+  Newton 1 residual=1.0691e-01 relative=7.7814e-03
+  Newton 2 residual=5.8922e-05 relative=4.2885e-06
+  Newton 3 residual=1.7302e-10 relative=1.2593e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1432e-01
+  NN samples=706 evaluations=103 loss=1.4188e-04 seconds=0.1865
+Time step 35/200 t=0.0052
+  Newton 0 residual=1.3068e+01 relative=1.0000e+00
+  Newton 1 residual=8.3573e-02 relative=6.3952e-03
+  Newton 2 residual=6.0566e-05 relative=4.6347e-06
+  Newton 3 residual=1.8957e-10 relative=1.4506e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1443e-01
+  NN samples=706 evaluations=102 loss=1.3934e-04 seconds=0.1825
+Time step 36/200 t=0.0054
+  Newton 0 residual=1.2912e+01 relative=1.0000e+00
+  Newton 1 residual=9.2435e-02 relative=7.1590e-03
+  Newton 2 residual=5.5652e-05 relative=4.3102e-06
+  Newton 3 residual=1.5959e-10 relative=1.2360e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1457e-01
+  NN samples=706 evaluations=102 loss=1.3803e-04 seconds=0.1889
+Time step 37/200 t=0.0055
+  Newton 0 residual=1.4829e+01 relative=1.0000e+00
+  Newton 1 residual=9.4177e-02 relative=6.3508e-03
+  Newton 2 residual=5.8263e-05 relative=3.9290e-06
+  Newton 3 residual=1.8052e-10 relative=1.2173e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1461e-01
+  NN samples=706 evaluations=102 loss=1.3633e-04 seconds=0.1954
+Time step 38/200 t=0.0057
+  Newton 0 residual=1.1065e+01 relative=1.0000e+00
+  Newton 1 residual=7.8122e-02 relative=7.0605e-03
+  Newton 2 residual=5.3587e-05 relative=4.8430e-06
+  Newton 3 residual=1.5159e-10 relative=1.3701e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1465e-01
+  NN samples=706 evaluations=103 loss=1.3505e-04 seconds=0.2124
+Time step 39/200 t=0.0058
+  Newton 0 residual=1.5731e+01 relative=1.0000e+00
+  Newton 1 residual=1.0085e-01 relative=6.4108e-03
+  Newton 2 residual=5.7077e-05 relative=3.6283e-06
+  Newton 3 residual=1.7451e-10 relative=1.1093e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1463e-01
+  NN samples=706 evaluations=103 loss=1.3334e-04 seconds=0.1984
+Time step 40/200 t=0.0060
+  Newton 0 residual=1.1172e+01 relative=1.0000e+00
+  Newton 1 residual=7.6887e-02 relative=6.8822e-03
+  Newton 2 residual=5.1324e-05 relative=4.5940e-06
+  Newton 3 residual=1.4393e-10 relative=1.2883e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1466e-01
+  NN samples=706 evaluations=102 loss=1.3321e-04 seconds=0.2187
+Time step 41/200 t=0.0061
+  Newton 0 residual=1.4415e+01 relative=1.0000e+00
+  Newton 1 residual=8.7228e-02 relative=6.0513e-03
+  Newton 2 residual=5.4467e-05 relative=3.7785e-06
+  Newton 3 residual=1.5915e-10 relative=1.1041e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1461e-01
+  NN samples=706 evaluations=103 loss=1.3163e-04 seconds=0.1986
+Time step 42/200 t=0.0063
+  Newton 0 residual=1.2196e+01 relative=1.0000e+00
+  Newton 1 residual=7.5412e-02 relative=6.1831e-03
+  Newton 2 residual=4.9920e-05 relative=4.0930e-06
+  Newton 3 residual=1.3483e-10 relative=1.1055e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1464e-01
+  NN samples=706 evaluations=102 loss=1.3013e-04 seconds=0.2157
+Time step 43/200 t=0.0064
+  Newton 0 residual=1.6957e+01 relative=1.0000e+00
+  Newton 1 residual=1.0339e-01 relative=6.0973e-03
+  Newton 2 residual=5.3450e-05 relative=3.1521e-06
+  Newton 3 residual=1.5441e-10 relative=9.1060e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1462e-01
+  NN samples=706 evaluations=103 loss=1.2771e-04 seconds=0.2257
+Time step 44/200 t=0.0066
+  Newton 0 residual=1.1708e+01 relative=1.0000e+00
+  Newton 1 residual=7.4237e-02 relative=6.3409e-03
+  Newton 2 residual=4.7811e-05 relative=4.0838e-06
+  Newton 3 residual=1.2328e-10 relative=1.0530e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1469e-01
+  NN samples=706 evaluations=102 loss=1.2701e-04 seconds=0.2081
+Time step 45/200 t=0.0067
+  Newton 0 residual=1.5022e+01 relative=1.0000e+00
+  Newton 1 residual=8.6428e-02 relative=5.7533e-03
+  Newton 2 residual=5.1737e-05 relative=3.4440e-06
+  Newton 3 residual=1.4267e-10 relative=9.4974e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1467e-01
+  NN samples=706 evaluations=102 loss=1.2454e-04 seconds=0.1854
+Time step 46/200 t=0.0069
+  Newton 0 residual=1.2624e+01 relative=1.0000e+00
+  Newton 1 residual=7.6706e-02 relative=6.0764e-03
+  Newton 2 residual=4.7776e-05 relative=3.7847e-06
+  Newton 3 residual=1.2392e-10 relative=9.8164e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1478e-01
+  NN samples=706 evaluations=102 loss=1.2269e-04 seconds=0.1985
+Time step 47/200 t=0.0070
+  Newton 0 residual=1.6158e+01 relative=1.0000e+00
+  Newton 1 residual=9.5111e-02 relative=5.8863e-03
+  Newton 2 residual=5.0235e-05 relative=3.1090e-06
+  Newton 3 residual=1.3304e-10 relative=8.2337e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1479e-01
+  NN samples=706 evaluations=102 loss=1.2092e-04 seconds=0.2061
+Time step 48/200 t=0.0072
+  Newton 0 residual=1.3722e+01 relative=1.0000e+00
+  Newton 1 residual=8.1848e-02 relative=5.9646e-03
+  Newton 2 residual=4.7324e-05 relative=3.4487e-06
+  Newton 3 residual=1.1988e-10 relative=8.7363e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1491e-01
+  NN samples=706 evaluations=103 loss=1.1956e-04 seconds=0.2116
+Time step 49/200 t=0.0073
+  Newton 0 residual=1.5720e+01 relative=1.0000e+00
+  Newton 1 residual=9.1887e-02 relative=5.8451e-03
+  Newton 2 residual=5.0169e-05 relative=3.1913e-06
+  Newton 3 residual=1.3391e-10 relative=8.5179e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1500e-01
+  NN samples=706 evaluations=102 loss=1.1805e-04 seconds=0.1876
+Time step 50/200 t=0.0075
+  Newton 0 residual=1.4157e+01 relative=1.0000e+00
+  Newton 1 residual=8.5946e-02 relative=6.0708e-03
+  Newton 2 residual=4.8129e-05 relative=3.3996e-06
+  Newton 3 residual=1.2418e-10 relative=8.7712e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1520e-01
+  NN samples=706 evaluations=102 loss=1.1560e-04 seconds=0.1980
+Time step 51/200 t=0.0076
+  Newton 0 residual=1.5711e+01 relative=1.0000e+00
+  Newton 1 residual=9.7399e-02 relative=6.1993e-03
+  Newton 2 residual=4.9569e-05 relative=3.1550e-06
+  Newton 3 residual=1.2899e-10 relative=8.2099e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1543e-01
+  NN samples=706 evaluations=102 loss=1.1447e-04 seconds=0.1912
+Time step 52/200 t=0.0078
+  Newton 0 residual=1.3722e+01 relative=1.0000e+00
+  Newton 1 residual=8.6716e-02 relative=6.3194e-03
+  Newton 2 residual=4.7934e-05 relative=3.4931e-06
+  Newton 3 residual=1.2325e-10 relative=8.9818e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1570e-01
+  NN samples=706 evaluations=103 loss=1.1375e-04 seconds=0.1935
+Time step 53/200 t=0.0079
+  Newton 0 residual=1.4896e+01 relative=1.0000e+00
+  Newton 1 residual=9.0534e-02 relative=6.0776e-03
+  Newton 2 residual=5.0837e-05 relative=3.4127e-06
+  Newton 3 residual=1.4052e-10 relative=9.4329e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1599e-01
+  NN samples=706 evaluations=102 loss=1.1102e-04 seconds=0.1980
+Time step 54/200 t=0.0081
+  Newton 0 residual=1.3522e+01 relative=1.0000e+00
+  Newton 1 residual=9.2816e-02 relative=6.8639e-03
+  Newton 2 residual=4.8450e-05 relative=3.5830e-06
+  Newton 3 residual=1.2090e-10 relative=8.9412e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1639e-01
+  NN samples=706 evaluations=102 loss=1.0679e-04 seconds=0.1912
+Time step 55/200 t=0.0082
+  Newton 0 residual=1.5078e+01 relative=1.0000e+00
+  Newton 1 residual=9.8460e-02 relative=6.5299e-03
+  Newton 2 residual=4.7260e-05 relative=3.1342e-06
+  Newton 3 residual=1.2132e-10 relative=8.0457e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1682e-01
+  NN samples=706 evaluations=102 loss=1.0400e-04 seconds=0.1894
+Time step 56/200 t=0.0084
+  Newton 0 residual=1.2774e+01 relative=1.0000e+00
+  Newton 1 residual=9.0854e-02 relative=7.1122e-03
+  Newton 2 residual=4.5871e-05 relative=3.5909e-06
+  Newton 3 residual=1.1805e-10 relative=9.2411e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1718e-01
+  NN samples=706 evaluations=102 loss=1.0089e-04 seconds=0.1846
+Time step 57/200 t=0.0085
+  Newton 0 residual=1.3778e+01 relative=1.0000e+00
+  Newton 1 residual=9.3855e-02 relative=6.8117e-03
+  Newton 2 residual=4.6061e-05 relative=3.3429e-06
+  Newton 3 residual=1.1950e-10 relative=8.6727e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1749e-01
+  NN samples=706 evaluations=103 loss=9.8792e-05 seconds=0.1890
+Time step 58/200 t=0.0087
+  Newton 0 residual=1.2642e+01 relative=1.0000e+00
+  Newton 1 residual=8.9250e-02 relative=7.0600e-03
+  Newton 2 residual=4.4018e-05 relative=3.4820e-06
+  Newton 3 residual=1.1302e-10 relative=8.9406e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1776e-01
+  NN samples=706 evaluations=102 loss=9.6799e-05 seconds=0.1927
+Time step 59/200 t=0.0088
+  Newton 0 residual=1.2780e+01 relative=1.0000e+00
+  Newton 1 residual=8.5717e-02 relative=6.7072e-03
+  Newton 2 residual=4.4706e-05 relative=3.4981e-06
+  Newton 3 residual=1.1672e-10 relative=9.1334e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1795e-01
+  NN samples=706 evaluations=102 loss=9.4477e-05 seconds=0.1917
+Time step 60/200 t=0.0090
+  Newton 0 residual=1.3964e+01 relative=1.0000e+00
+  Newton 1 residual=9.3959e-02 relative=6.7288e-03
+  Newton 2 residual=4.2881e-05 relative=3.0709e-06
+  Newton 3 residual=1.1226e-10 relative=8.0394e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1821e-01
+  NN samples=706 evaluations=102 loss=9.1722e-05 seconds=0.1953
+Time step 61/200 t=0.0091
+  Newton 0 residual=1.4258e+01 relative=1.0000e+00
+  Newton 1 residual=9.2416e-02 relative=6.4816e-03
+  Newton 2 residual=4.3992e-05 relative=3.0854e-06
+  Newton 3 residual=1.1575e-10 relative=8.1184e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1845e-01
+  NN samples=706 evaluations=102 loss=9.0409e-05 seconds=0.2054
+Time step 62/200 t=0.0093
+  Newton 0 residual=1.4721e+01 relative=1.0000e+00
+  Newton 1 residual=9.9387e-02 relative=6.7513e-03
+  Newton 2 residual=4.4083e-05 relative=2.9946e-06
+  Newton 3 residual=1.1470e-10 relative=7.7917e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1879e-01
+  NN samples=706 evaluations=103 loss=8.8850e-05 seconds=0.1901
+Time step 63/200 t=0.0094
+  Newton 0 residual=1.5558e+01 relative=1.0000e+00
+  Newton 1 residual=1.0472e-01 relative=6.7312e-03
+  Newton 2 residual=5.3167e-05 relative=3.4173e-06
+  Newton 3 residual=1.3831e-10 relative=8.8898e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1918e-01
+  NN samples=706 evaluations=102 loss=8.7349e-05 seconds=0.1773
+Time step 64/200 t=0.0096
+  Newton 0 residual=1.6948e+01 relative=1.0000e+00
+  Newton 1 residual=1.1805e-01 relative=6.9654e-03
+  Newton 2 residual=7.9180e-05 relative=4.6721e-06
+  Newton 3 residual=4.1317e-10 relative=2.4379e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.1976e-01
+  NN samples=706 evaluations=102 loss=8.5834e-05 seconds=0.2003
+Time step 65/200 t=0.0097
+  Newton 0 residual=1.7034e+01 relative=1.0000e+00
+  Newton 1 residual=1.1795e-01 relative=6.9247e-03
+  Newton 2 residual=1.1375e-04 relative=6.6782e-06
+  Newton 3 residual=1.0953e-09 relative=6.4305e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2037e-01
+  NN samples=706 evaluations=102 loss=8.4875e-05 seconds=0.1901
+Time step 66/200 t=0.0099
+  Newton 0 residual=1.8500e+01 relative=1.0000e+00
+  Newton 1 residual=1.3772e-01 relative=7.4442e-03
+  Newton 2 residual=1.1911e-04 relative=6.4381e-06
+  Newton 3 residual=1.2564e-09 relative=6.7912e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2099e-01
+  NN samples=706 evaluations=102 loss=8.3862e-05 seconds=0.1893
+Time step 67/200 t=0.0100
+  Newton 0 residual=1.7912e+01 relative=1.0000e+00
+  Newton 1 residual=1.3469e-01 relative=7.5194e-03
+  Newton 2 residual=9.0546e-05 relative=5.0550e-06
+  Newton 3 residual=6.5236e-10 relative=3.6420e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2148e-01
+  NN samples=706 evaluations=102 loss=8.3374e-05 seconds=0.1868
+Time step 68/200 t=0.0102
+  Newton 0 residual=1.8363e+01 relative=1.0000e+00
+  Newton 1 residual=1.4584e-01 relative=7.9418e-03
+  Newton 2 residual=6.4481e-05 relative=3.5115e-06
+  Newton 3 residual=2.6942e-10 relative=1.4672e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2190e-01
+  NN samples=706 evaluations=102 loss=8.2189e-05 seconds=0.1917
+Time step 69/200 t=0.0103
+  Newton 0 residual=1.7433e+01 relative=1.0000e+00
+  Newton 1 residual=1.3248e-01 relative=7.5994e-03
+  Newton 2 residual=4.8232e-05 relative=2.7667e-06
+  Newton 3 residual=1.3093e-10 relative=7.5108e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2217e-01
+  NN samples=706 evaluations=102 loss=8.1290e-05 seconds=0.2029
+Time step 70/200 t=0.0105
+  Newton 0 residual=1.7555e+01 relative=1.0000e+00
+  Newton 1 residual=1.4690e-01 relative=8.3680e-03
+  Newton 2 residual=4.3837e-05 relative=2.4971e-06
+  Newton 3 residual=1.1407e-10 relative=6.4977e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2248e-01
+  NN samples=706 evaluations=102 loss=8.0442e-05 seconds=0.1922
+Time step 71/200 t=0.0106
+  Newton 0 residual=1.7006e+01 relative=1.0000e+00
+  Newton 1 residual=1.4087e-01 relative=8.2837e-03
+  Newton 2 residual=4.1704e-05 relative=2.4524e-06
+  Newton 3 residual=1.1082e-10 relative=6.5166e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2270e-01
+  NN samples=706 evaluations=102 loss=7.9520e-05 seconds=0.1968
+Time step 72/200 t=0.0108
+  Newton 0 residual=1.7468e+01 relative=1.0000e+00
+  Newton 1 residual=1.6070e-01 relative=9.1997e-03
+  Newton 2 residual=4.1669e-05 relative=2.3854e-06
+  Newton 3 residual=1.0192e-10 relative=5.8345e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2293e-01
+  NN samples=706 evaluations=102 loss=7.8180e-05 seconds=0.1982
+Time step 73/200 t=0.0109
+  Newton 0 residual=1.7388e+01 relative=1.0000e+00
+  Newton 1 residual=1.6565e-01 relative=9.5271e-03
+  Newton 2 residual=4.2016e-05 relative=2.4164e-06
+  Newton 3 residual=1.0210e-10 relative=5.8720e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2314e-01
+  NN samples=706 evaluations=103 loss=7.7338e-05 seconds=0.1974
+Time step 74/200 t=0.0111
+  Newton 0 residual=1.7073e+01 relative=1.0000e+00
+  Newton 1 residual=1.7196e-01 relative=1.0072e-02
+  Newton 2 residual=4.2947e-05 relative=2.5155e-06
+  Newton 3 residual=9.6179e-11 relative=5.6335e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2334e-01
+  NN samples=706 evaluations=103 loss=7.6416e-05 seconds=0.1991
+Time step 75/200 t=0.0112
+  Newton 0 residual=1.6912e+01 relative=1.0000e+00
+  Newton 1 residual=1.7879e-01 relative=1.0572e-02
+  Newton 2 residual=4.5098e-05 relative=2.6667e-06
+  Newton 3 residual=1.0424e-10 relative=6.1641e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2356e-01
+  NN samples=706 evaluations=102 loss=7.5940e-05 seconds=0.2107
+Time step 76/200 t=0.0114
+  Newton 0 residual=1.7686e+01 relative=1.0000e+00
+  Newton 1 residual=1.9827e-01 relative=1.1211e-02
+  Newton 2 residual=4.8689e-05 relative=2.7530e-06
+  Newton 3 residual=9.7389e-11 relative=5.5065e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2376e-01
+  NN samples=706 evaluations=102 loss=7.5201e-05 seconds=0.1962
+Time step 77/200 t=0.0115
+  Newton 0 residual=1.7546e+01 relative=1.0000e+00
+  Newton 1 residual=2.0068e-01 relative=1.1437e-02
+  Newton 2 residual=4.9981e-05 relative=2.8485e-06
+  Newton 3 residual=1.0219e-10 relative=5.8242e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2396e-01
+  NN samples=706 evaluations=102 loss=7.4672e-05 seconds=0.1967
+Time step 78/200 t=0.0117
+  Newton 0 residual=1.8791e+01 relative=1.0000e+00
+  Newton 1 residual=2.2132e-01 relative=1.1778e-02
+  Newton 2 residual=5.4991e-05 relative=2.9265e-06
+  Newton 3 residual=9.5859e-11 relative=5.1014e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2415e-01
+  NN samples=706 evaluations=102 loss=7.4006e-05 seconds=0.1983
+Time step 79/200 t=0.0118
+  Newton 0 residual=1.7818e+01 relative=1.0000e+00
+  Newton 1 residual=2.0877e-01 relative=1.1716e-02
+  Newton 2 residual=5.2316e-05 relative=2.9361e-06
+  Newton 3 residual=1.0061e-10 relative=5.6465e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2435e-01
+  NN samples=706 evaluations=102 loss=7.3780e-05 seconds=0.2249
+Time step 80/200 t=0.0120
+  Newton 0 residual=1.8266e+01 relative=1.0000e+00
+  Newton 1 residual=2.1970e-01 relative=1.2028e-02
+  Newton 2 residual=5.5641e-05 relative=3.0461e-06
+  Newton 3 residual=1.0361e-10 relative=5.6721e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2452e-01
+  NN samples=706 evaluations=102 loss=7.2877e-05 seconds=0.2056
+Time step 81/200 t=0.0121
+  Newton 0 residual=1.6688e+01 relative=1.0000e+00
+  Newton 1 residual=1.7658e-01 relative=1.0581e-02
+  Newton 2 residual=4.4780e-05 relative=2.6833e-06
+  Newton 3 residual=9.7667e-11 relative=5.8525e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2471e-01
+  NN samples=706 evaluations=102 loss=7.2273e-05 seconds=0.2034
+Time step 82/200 t=0.0123
+  Newton 0 residual=1.6171e+01 relative=1.0000e+00
+  Newton 1 residual=1.5313e-01 relative=9.4692e-03
+  Newton 2 residual=4.0907e-05 relative=2.5296e-06
+  Newton 3 residual=9.8904e-11 relative=6.1161e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2487e-01
+  NN samples=706 evaluations=102 loss=7.1453e-05 seconds=0.1908
+Time step 83/200 t=0.0124
+  Newton 0 residual=1.1193e+01 relative=1.0000e+00
+  Newton 1 residual=7.5994e-02 relative=6.7895e-03
+  Newton 2 residual=3.7131e-05 relative=3.3174e-06
+  Newton 3 residual=1.0015e-10 relative=8.9479e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2506e-01
+  NN samples=706 evaluations=103 loss=7.1152e-05 seconds=0.1963
+Time step 84/200 t=0.0126
+  Newton 0 residual=9.0327e+00 relative=1.0000e+00
+  Newton 1 residual=6.4342e-02 relative=7.1233e-03
+  Newton 2 residual=3.7341e-05 relative=4.1340e-06
+  Newton 3 residual=1.0257e-10 relative=1.1355e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2522e-01
+  NN samples=706 evaluations=102 loss=7.0818e-05 seconds=0.2034
+Time step 85/200 t=0.0127
+  Newton 0 residual=8.1985e+00 relative=1.0000e+00
+  Newton 1 residual=6.4788e-02 relative=7.9023e-03
+  Newton 2 residual=3.6993e-05 relative=4.5121e-06
+  Newton 3 residual=9.8754e-11 relative=1.2045e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2540e-01
+  NN samples=706 evaluations=102 loss=7.0574e-05 seconds=0.2110
+Time step 86/200 t=0.0129
+  Newton 0 residual=8.0447e+00 relative=1.0000e+00
+  Newton 1 residual=6.5680e-02 relative=8.1643e-03
+  Newton 2 residual=3.8070e-05 relative=4.7322e-06
+  Newton 3 residual=1.0590e-10 relative=1.3164e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2556e-01
+  NN samples=706 evaluations=103 loss=7.0230e-05 seconds=0.2122
+Time step 87/200 t=0.0130
+  Newton 0 residual=8.4508e+00 relative=1.0000e+00
+  Newton 1 residual=6.7671e-02 relative=8.0076e-03
+  Newton 2 residual=3.7210e-05 relative=4.4031e-06
+  Newton 3 residual=9.8763e-11 relative=1.1687e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2570e-01
+  NN samples=706 evaluations=102 loss=6.9705e-05 seconds=0.2050
+Time step 88/200 t=0.0132
+  Newton 0 residual=8.2878e+00 relative=1.0000e+00
+  Newton 1 residual=6.7604e-02 relative=8.1571e-03
+  Newton 2 residual=3.7885e-05 relative=4.5711e-06
+  Newton 3 residual=1.0469e-10 relative=1.2632e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2582e-01
+  NN samples=706 evaluations=102 loss=6.9358e-05 seconds=0.2590
+Time step 89/200 t=0.0133
+  Newton 0 residual=8.5998e+00 relative=1.0000e+00
+  Newton 1 residual=6.9225e-02 relative=8.0496e-03
+  Newton 2 residual=3.7537e-05 relative=4.3648e-06
+  Newton 3 residual=1.0155e-10 relative=1.1808e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2595e-01
+  NN samples=706 evaluations=102 loss=6.8856e-05 seconds=0.2000
+Time step 90/200 t=0.0135
+  Newton 0 residual=8.4008e+00 relative=1.0000e+00
+  Newton 1 residual=6.8314e-02 relative=8.1319e-03
+  Newton 2 residual=3.7921e-05 relative=4.5140e-06
+  Newton 3 residual=1.0624e-10 relative=1.2646e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2605e-01
+  NN samples=706 evaluations=102 loss=6.8581e-05 seconds=0.1776
+Time step 91/200 t=0.0136
+  Newton 0 residual=8.5998e+00 relative=1.0000e+00
+  Newton 1 residual=6.8903e-02 relative=8.0122e-03
+  Newton 2 residual=3.7434e-05 relative=4.3529e-06
+  Newton 3 residual=1.0248e-10 relative=1.1916e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2617e-01
+  NN samples=706 evaluations=102 loss=6.8176e-05 seconds=0.1833
+Time step 92/200 t=0.0138
+  Newton 0 residual=8.2191e+00 relative=1.0000e+00
+  Newton 1 residual=6.8000e-02 relative=8.2735e-03
+  Newton 2 residual=3.7711e-05 relative=4.5882e-06
+  Newton 3 residual=1.0708e-10 relative=1.3028e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2625e-01
+  NN samples=706 evaluations=103 loss=6.7822e-05 seconds=0.1952
+Time step 93/200 t=0.0139
+  Newton 0 residual=8.8758e+00 relative=1.0000e+00
+  Newton 1 residual=6.8414e-02 relative=7.7079e-03
+  Newton 2 residual=3.7088e-05 relative=4.1785e-06
+  Newton 3 residual=1.0179e-10 relative=1.1468e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2634e-01
+  NN samples=706 evaluations=103 loss=6.7586e-05 seconds=0.2021
+Time step 94/200 t=0.0141
+  Newton 0 residual=8.0658e+00 relative=1.0000e+00
+  Newton 1 residual=6.7400e-02 relative=8.3563e-03
+  Newton 2 residual=3.7737e-05 relative=4.6786e-06
+  Newton 3 residual=1.0811e-10 relative=1.3403e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2640e-01
+  NN samples=706 evaluations=102 loss=6.6985e-05 seconds=0.2121
+Time step 95/200 t=0.0142
+  Newton 0 residual=9.1548e+00 relative=1.0000e+00
+  Newton 1 residual=6.8136e-02 relative=7.4426e-03
+  Newton 2 residual=3.6838e-05 relative=4.0239e-06
+  Newton 3 residual=1.0274e-10 relative=1.1223e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2645e-01
+  NN samples=706 evaluations=102 loss=6.6615e-05 seconds=0.1919
+Time step 96/200 t=0.0144
+  Newton 0 residual=8.3590e+00 relative=1.0000e+00
+  Newton 1 residual=6.6277e-02 relative=7.9289e-03
+  Newton 2 residual=3.7213e-05 relative=4.4518e-06
+  Newton 3 residual=1.0739e-10 relative=1.2847e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2650e-01
+  NN samples=706 evaluations=103 loss=6.6266e-05 seconds=0.2098
+Time step 97/200 t=0.0145
+  Newton 0 residual=8.6690e+00 relative=1.0000e+00
+  Newton 1 residual=6.6111e-02 relative=7.6262e-03
+  Newton 2 residual=3.6241e-05 relative=4.1806e-06
+  Newton 3 residual=1.0072e-10 relative=1.1619e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2658e-01
+  NN samples=706 evaluations=102 loss=6.5903e-05 seconds=0.1839
+Time step 98/200 t=0.0147
+  Newton 0 residual=8.3611e+00 relative=1.0000e+00
+  Newton 1 residual=6.4678e-02 relative=7.7356e-03
+  Newton 2 residual=3.7276e-05 relative=4.4583e-06
+  Newton 3 residual=1.0972e-10 relative=1.3123e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2659e-01
+  NN samples=706 evaluations=102 loss=6.5527e-05 seconds=0.1834
+Time step 99/200 t=0.0148
+  Newton 0 residual=8.5835e+00 relative=1.0000e+00
+  Newton 1 residual=6.4823e-02 relative=7.5521e-03
+  Newton 2 residual=3.6362e-05 relative=4.2362e-06
+  Newton 3 residual=1.0476e-10 relative=1.2205e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2665e-01
+  NN samples=706 evaluations=102 loss=6.5070e-05 seconds=0.2123
+Time step 100/200 t=0.0150
+  Newton 0 residual=8.2673e+00 relative=1.0000e+00
+  Newton 1 residual=6.3435e-02 relative=7.6730e-03
+  Newton 2 residual=3.7160e-05 relative=4.4948e-06
+  Newton 3 residual=1.1185e-10 relative=1.3530e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2667e-01
+  NN samples=706 evaluations=102 loss=6.4726e-05 seconds=0.2121
+Time step 101/200 t=0.0151
+  Newton 0 residual=8.4880e+00 relative=1.0000e+00
+  Newton 1 residual=6.3514e-02 relative=7.4828e-03
+  Newton 2 residual=3.6096e-05 relative=4.2525e-06
+  Newton 3 residual=1.0500e-10 relative=1.2371e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2672e-01
+  NN samples=706 evaluations=102 loss=6.4464e-05 seconds=0.1874
+Time step 102/200 t=0.0153
+  Newton 0 residual=8.0858e+00 relative=1.0000e+00
+  Newton 1 residual=6.2470e-02 relative=7.7259e-03
+  Newton 2 residual=3.6592e-05 relative=4.5255e-06
+  Newton 3 residual=1.0937e-10 relative=1.3527e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2674e-01
+  NN samples=706 evaluations=102 loss=6.4266e-05 seconds=0.1971
+Time step 103/200 t=0.0154
+  Newton 0 residual=8.2099e+00 relative=1.0000e+00
+  Newton 1 residual=6.2423e-02 relative=7.6034e-03
+  Newton 2 residual=3.5760e-05 relative=4.3557e-06
+  Newton 3 residual=1.0269e-10 relative=1.2509e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2677e-01
+  NN samples=706 evaluations=102 loss=6.4010e-05 seconds=0.1953
+Time step 104/200 t=0.0156
+  Newton 0 residual=8.0961e+00 relative=1.0000e+00
+  Newton 1 residual=6.1847e-02 relative=7.6391e-03
+  Newton 2 residual=3.6668e-05 relative=4.5291e-06
+  Newton 3 residual=1.1022e-10 relative=1.3614e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2677e-01
+  NN samples=706 evaluations=102 loss=6.3685e-05 seconds=0.1929
+Time step 105/200 t=0.0158
+  Newton 0 residual=8.3544e+00 relative=1.0000e+00
+  Newton 1 residual=6.2124e-02 relative=7.4361e-03
+  Newton 2 residual=3.5490e-05 relative=4.2481e-06
+  Newton 3 residual=1.0284e-10 relative=1.2310e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2680e-01
+  NN samples=706 evaluations=102 loss=6.3378e-05 seconds=0.1948
+Time step 106/200 t=0.0159
+  Newton 0 residual=8.1324e+00 relative=1.0000e+00
+  Newton 1 residual=6.1784e-02 relative=7.5973e-03
+  Newton 2 residual=3.6583e-05 relative=4.4984e-06
+  Newton 3 residual=1.1088e-10 relative=1.3635e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2679e-01
+  NN samples=706 evaluations=102 loss=6.3138e-05 seconds=0.1982
+Time step 107/200 t=0.0160
+  Newton 0 residual=8.1413e+00 relative=1.0000e+00
+  Newton 1 residual=6.1518e-02 relative=7.5563e-03
+  Newton 2 residual=3.5164e-05 relative=4.3191e-06
+  Newton 3 residual=1.0154e-10 relative=1.2472e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2682e-01
+  NN samples=706 evaluations=102 loss=6.2908e-05 seconds=0.2057
+Time step 108/200 t=0.0162
+  Newton 0 residual=8.0045e+00 relative=1.0000e+00
+  Newton 1 residual=6.1314e-02 relative=7.6599e-03
+  Newton 2 residual=3.6426e-05 relative=4.5507e-06
+  Newton 3 residual=1.1068e-10 relative=1.3827e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2681e-01
+  NN samples=706 evaluations=103 loss=6.2751e-05 seconds=0.1959
+Time step 109/200 t=0.0163
+  Newton 0 residual=8.0125e+00 relative=1.0000e+00
+  Newton 1 residual=6.1089e-02 relative=7.6242e-03
+  Newton 2 residual=3.5218e-05 relative=4.3953e-06
+  Newton 3 residual=1.0173e-10 relative=1.2697e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2684e-01
+  NN samples=706 evaluations=102 loss=6.2491e-05 seconds=0.1885
+Time step 110/200 t=0.0165
+  Newton 0 residual=7.9590e+00 relative=1.0000e+00
+  Newton 1 residual=6.1237e-02 relative=7.6940e-03
+  Newton 2 residual=3.6483e-05 relative=4.5838e-06
+  Newton 3 residual=1.1161e-10 relative=1.4024e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2682e-01
+  NN samples=706 evaluations=102 loss=6.2244e-05 seconds=0.2001
+Time step 111/200 t=0.0166
+  Newton 0 residual=8.1446e+00 relative=1.0000e+00
+  Newton 1 residual=6.1278e-02 relative=7.5238e-03
+  Newton 2 residual=3.5020e-05 relative=4.2998e-06
+  Newton 3 residual=1.0163e-10 relative=1.2478e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2683e-01
+  NN samples=706 evaluations=102 loss=6.1862e-05 seconds=0.1987
+Time step 112/200 t=0.0168
+  Newton 0 residual=7.9197e+00 relative=1.0000e+00
+  Newton 1 residual=6.1929e-02 relative=7.8196e-03
+  Newton 2 residual=3.6222e-05 relative=4.5737e-06
+  Newton 3 residual=1.0957e-10 relative=1.3835e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2680e-01
+  NN samples=706 evaluations=102 loss=6.1572e-05 seconds=0.2063
+Time step 113/200 t=0.0169
+  Newton 0 residual=8.2144e+00 relative=1.0000e+00
+  Newton 1 residual=6.2116e-02 relative=7.5619e-03
+  Newton 2 residual=3.4410e-05 relative=4.1889e-06
+  Newton 3 residual=9.7770e-11 relative=1.1902e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2682e-01
+  NN samples=706 evaluations=102 loss=6.1287e-05 seconds=0.2241
+Time step 114/200 t=0.0171
+  Newton 0 residual=7.9885e+00 relative=1.0000e+00
+  Newton 1 residual=6.2492e-02 relative=7.8227e-03
+  Newton 2 residual=3.5922e-05 relative=4.4967e-06
+  Newton 3 residual=1.0773e-10 relative=1.3486e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2680e-01
+  NN samples=706 evaluations=102 loss=6.1113e-05 seconds=0.1964
+Time step 115/200 t=0.0172
+  Newton 0 residual=8.0948e+00 relative=1.0000e+00
+  Newton 1 residual=6.2014e-02 relative=7.6610e-03
+  Newton 2 residual=3.4585e-05 relative=4.2725e-06
+  Newton 3 residual=9.8790e-11 relative=1.2204e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2681e-01
+  NN samples=706 evaluations=102 loss=6.0915e-05 seconds=0.1853
+Time step 116/200 t=0.0174
+  Newton 0 residual=8.1176e+00 relative=1.0000e+00
+  Newton 1 residual=6.2886e-02 relative=7.7469e-03
+  Newton 2 residual=3.5794e-05 relative=4.4095e-06
+  Newton 3 residual=1.0724e-10 relative=1.3211e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2678e-01
+  NN samples=706 evaluations=103 loss=6.0677e-05 seconds=0.1938
+Time step 117/200 t=0.0175
+  Newton 0 residual=8.1788e+00 relative=1.0000e+00
+  Newton 1 residual=6.2279e-02 relative=7.6147e-03
+  Newton 2 residual=3.4282e-05 relative=4.1916e-06
+  Newton 3 residual=9.7326e-11 relative=1.1900e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2677e-01
+  NN samples=706 evaluations=102 loss=6.0419e-05 seconds=0.2043
+Time step 118/200 t=0.0177
+  Newton 0 residual=8.4704e+00 relative=1.0000e+00
+  Newton 1 residual=6.3971e-02 relative=7.5524e-03
+  Newton 2 residual=3.5630e-05 relative=4.2064e-06
+  Newton 3 residual=1.0619e-10 relative=1.2537e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2674e-01
+  NN samples=706 evaluations=102 loss=6.0241e-05 seconds=0.2030
+Time step 119/200 t=0.0178
+  Newton 0 residual=8.1395e+00 relative=1.0000e+00
+  Newton 1 residual=6.3009e-02 relative=7.7411e-03
+  Newton 2 residual=3.4189e-05 relative=4.2003e-06
+  Newton 3 residual=9.5921e-11 relative=1.1785e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2674e-01
+  NN samples=706 evaluations=102 loss=5.9975e-05 seconds=0.2038
+Time step 120/200 t=0.0180
+  Newton 0 residual=8.5466e+00 relative=1.0000e+00
+  Newton 1 residual=6.5098e-02 relative=7.6169e-03
+  Newton 2 residual=3.5576e-05 relative=4.1626e-06
+  Newton 3 residual=1.0537e-10 relative=1.2328e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2670e-01
+  NN samples=706 evaluations=102 loss=5.9750e-05 seconds=0.1941
+Time step 121/200 t=0.0181
+  Newton 0 residual=8.2648e+00 relative=1.0000e+00
+  Newton 1 residual=6.3878e-02 relative=7.7289e-03
+  Newton 2 residual=3.4081e-05 relative=4.1237e-06
+  Newton 3 residual=9.5008e-11 relative=1.1495e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2669e-01
+  NN samples=706 evaluations=102 loss=5.9421e-05 seconds=0.1986
+Time step 122/200 t=0.0183
+  Newton 0 residual=8.7151e+00 relative=1.0000e+00
+  Newton 1 residual=6.6796e-02 relative=7.6644e-03
+  Newton 2 residual=3.5359e-05 relative=4.0572e-06
+  Newton 3 residual=1.0271e-10 relative=1.1785e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2665e-01
+  NN samples=706 evaluations=102 loss=5.9066e-05 seconds=0.2030
+Time step 123/200 t=0.0184
+  Newton 0 residual=8.2472e+00 relative=1.0000e+00
+  Newton 1 residual=6.4904e-02 relative=7.8698e-03
+  Newton 2 residual=3.3358e-05 relative=4.0448e-06
+  Newton 3 residual=8.9053e-11 relative=1.0798e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2664e-01
+  NN samples=706 evaluations=102 loss=5.8769e-05 seconds=0.1810
+Time step 124/200 t=0.0186
+  Newton 0 residual=8.6544e+00 relative=1.0000e+00
+  Newton 1 residual=6.8351e-02 relative=7.8978e-03
+  Newton 2 residual=3.4855e-05 relative=4.0275e-06
+  Newton 3 residual=9.8037e-11 relative=1.1328e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2660e-01
+  NN samples=706 evaluations=102 loss=5.8337e-05 seconds=0.1982
+Time step 125/200 t=0.0187
+  Newton 0 residual=8.1979e+00 relative=1.0000e+00
+  Newton 1 residual=6.6426e-02 relative=8.1029e-03
+  Newton 2 residual=3.2571e-05 relative=3.9731e-06
+  Newton 3 residual=8.1970e-11 relative=9.9989e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2659e-01
+  NN samples=706 evaluations=102 loss=5.8015e-05 seconds=0.1943
+Time step 126/200 t=0.0189
+  Newton 0 residual=8.7031e+00 relative=1.0000e+00
+  Newton 1 residual=7.0040e-02 relative=8.0477e-03
+  Newton 2 residual=3.4292e-05 relative=3.9402e-06
+  Newton 3 residual=9.2302e-11 relative=1.0606e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2654e-01
+  NN samples=706 evaluations=103 loss=5.7789e-05 seconds=0.1930
+Time step 127/200 t=0.0190
+  Newton 0 residual=7.9974e+00 relative=1.0000e+00
+  Newton 1 residual=6.7426e-02 relative=8.4309e-03
+  Newton 2 residual=3.3043e-05 relative=4.1317e-06
+  Newton 3 residual=8.3491e-11 relative=1.0440e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2653e-01
+  NN samples=706 evaluations=102 loss=5.7462e-05 seconds=0.2015
+Time step 128/200 t=0.0192
+  Newton 0 residual=8.8706e+00 relative=1.0000e+00
+  Newton 1 residual=7.1680e-02 relative=8.0806e-03
+  Newton 2 residual=3.4204e-05 relative=3.8559e-06
+  Newton 3 residual=9.0426e-11 relative=1.0194e-11
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2647e-01
+  NN samples=706 evaluations=102 loss=5.7119e-05 seconds=0.2009
+Time step 129/200 t=0.0193
+  Newton 0 residual=8.0435e+00 relative=1.0000e+00
+  Newton 1 residual=6.7672e-02 relative=8.4133e-03
+  Newton 2 residual=3.2436e-05 relative=4.0326e-06
+  Newton 3 residual=7.9461e-11 relative=9.8789e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2646e-01
+  NN samples=706 evaluations=102 loss=5.6745e-05 seconds=0.1960
+Time step 130/200 t=0.0195
+  Newton 0 residual=8.9346e+00 relative=1.0000e+00
+  Newton 1 residual=7.3149e-02 relative=8.1872e-03
+  Newton 2 residual=3.3745e-05 relative=3.7769e-06
+  Newton 3 residual=8.5976e-11 relative=9.6229e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2641e-01
+  NN samples=706 evaluations=102 loss=5.6406e-05 seconds=0.1981
+Time step 131/200 t=0.0196
+  Newton 0 residual=7.8991e+00 relative=1.0000e+00
+  Newton 1 residual=6.8488e-02 relative=8.6703e-03
+  Newton 2 residual=3.1925e-05 relative=4.0416e-06
+  Newton 3 residual=7.4893e-11 relative=9.4812e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2639e-01
+  NN samples=706 evaluations=102 loss=5.6048e-05 seconds=0.2115
+Time step 132/200 t=0.0198
+  Newton 0 residual=8.8221e+00 relative=1.0000e+00
+  Newton 1 residual=7.4275e-02 relative=8.4191e-03
+  Newton 2 residual=3.3216e-05 relative=3.7651e-06
+  Newton 3 residual=8.0963e-11 relative=9.1772e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2634e-01
+  NN samples=706 evaluations=102 loss=5.5708e-05 seconds=0.1922
+Time step 133/200 t=0.0199
+  Newton 0 residual=7.9167e+00 relative=1.0000e+00
+  Newton 1 residual=6.9429e-02 relative=8.7699e-03
+  Newton 2 residual=3.1606e-05 relative=3.9923e-06
+  Newton 3 residual=7.1542e-11 relative=9.0368e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2632e-01
+  NN samples=706 evaluations=102 loss=5.5263e-05 seconds=0.2139
+Time step 134/200 t=0.0201
+  Newton 0 residual=8.9245e+00 relative=1.0000e+00
+  Newton 1 residual=7.6011e-02 relative=8.5172e-03
+  Newton 2 residual=3.2781e-05 relative=3.6731e-06
+  Newton 3 residual=7.4841e-11 relative=8.3860e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2627e-01
+  NN samples=706 evaluations=102 loss=5.4974e-05 seconds=0.2022
+Time step 135/200 t=0.0202
+  Newton 0 residual=7.7686e+00 relative=1.0000e+00
+  Newton 1 residual=7.0867e-02 relative=9.1222e-03
+  Newton 2 residual=3.1443e-05 relative=4.0475e-06
+  Newton 3 residual=6.9074e-11 relative=8.8915e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2625e-01
+  NN samples=706 evaluations=102 loss=5.4721e-05 seconds=0.1870
+Time step 136/200 t=0.0204
+  Newton 0 residual=8.2676e+00 relative=1.0000e+00
+  Newton 1 residual=7.4428e-02 relative=9.0023e-03
+  Newton 2 residual=3.2053e-05 relative=3.8770e-06
+  Newton 3 residual=7.0312e-11 relative=8.5045e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2622e-01
+  NN samples=706 evaluations=102 loss=5.4391e-05 seconds=0.1879
+Time step 137/200 t=0.0205
+  Newton 0 residual=7.8204e+00 relative=1.0000e+00
+  Newton 1 residual=7.1758e-02 relative=9.1758e-03
+  Newton 2 residual=3.0935e-05 relative=3.9557e-06
+  Newton 3 residual=6.5584e-11 relative=8.3863e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2619e-01
+  NN samples=706 evaluations=102 loss=5.4031e-05 seconds=0.1960
+Time step 138/200 t=0.0207
+  Newton 0 residual=8.8436e+00 relative=1.0000e+00
+  Newton 1 residual=7.6530e-02 relative=8.6537e-03
+  Newton 2 residual=3.1606e-05 relative=3.5738e-06
+  Newton 3 residual=6.7955e-11 relative=7.6841e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2614e-01
+  NN samples=706 evaluations=102 loss=5.3673e-05 seconds=0.2134
+Time step 139/200 t=0.0208
+  Newton 0 residual=7.8270e+00 relative=1.0000e+00
+  Newton 1 residual=7.1274e-02 relative=9.1061e-03
+  Newton 2 residual=3.0364e-05 relative=3.8794e-06
+  Newton 3 residual=6.2013e-11 relative=7.9230e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2611e-01
+  NN samples=706 evaluations=102 loss=5.3320e-05 seconds=0.2135
+Time step 140/200 t=0.0210
+  Newton 0 residual=8.8603e+00 relative=1.0000e+00
+  Newton 1 residual=7.7003e-02 relative=8.6907e-03
+  Newton 2 residual=3.0966e-05 relative=3.4949e-06
+  Newton 3 residual=6.3691e-11 relative=7.1883e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2607e-01
+  NN samples=706 evaluations=102 loss=5.2978e-05 seconds=0.2043
+Time step 141/200 t=0.0211
+  Newton 0 residual=7.7039e+00 relative=1.0000e+00
+  Newton 1 residual=7.1232e-02 relative=9.2463e-03
+  Newton 2 residual=2.9741e-05 relative=3.8605e-06
+  Newton 3 residual=5.8301e-11 relative=7.5677e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2604e-01
+  NN samples=706 evaluations=103 loss=5.2641e-05 seconds=0.1958
+Time step 142/200 t=0.0213
+  Newton 0 residual=8.6417e+00 relative=1.0000e+00
+  Newton 1 residual=7.6515e-02 relative=8.8542e-03
+  Newton 2 residual=3.0225e-05 relative=3.4976e-06
+  Newton 3 residual=5.9454e-11 relative=6.8799e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2600e-01
+  NN samples=706 evaluations=103 loss=5.2341e-05 seconds=0.2017
+Time step 143/200 t=0.0214
+  Newton 0 residual=7.6878e+00 relative=1.0000e+00
+  Newton 1 residual=7.1305e-02 relative=9.2750e-03
+  Newton 2 residual=2.9078e-05 relative=3.7823e-06
+  Newton 3 residual=5.4827e-11 relative=7.1317e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2597e-01
+  NN samples=706 evaluations=102 loss=5.1953e-05 seconds=0.2092
+Time step 144/200 t=0.0216
+  Newton 0 residual=8.5836e+00 relative=1.0000e+00
+  Newton 1 residual=7.6404e-02 relative=8.9012e-03
+  Newton 2 residual=2.9664e-05 relative=3.4559e-06
+  Newton 3 residual=5.5790e-11 relative=6.4996e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2593e-01
+  NN samples=706 evaluations=102 loss=5.1629e-05 seconds=0.1911
+Time step 145/200 t=0.0217
+  Newton 0 residual=7.6458e+00 relative=1.0000e+00
+  Newton 1 residual=7.1229e-02 relative=9.3160e-03
+  Newton 2 residual=2.8425e-05 relative=3.7177e-06
+  Newton 3 residual=5.1229e-11 relative=6.7003e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2590e-01
+  NN samples=706 evaluations=102 loss=5.1197e-05 seconds=0.1846
+Time step 146/200 t=0.0219
+  Newton 0 residual=8.5684e+00 relative=1.0000e+00
+  Newton 1 residual=7.6739e-02 relative=8.9560e-03
+  Newton 2 residual=2.9243e-05 relative=3.4129e-06
+  Newton 3 residual=5.1598e-11 relative=6.0219e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2586e-01
+  NN samples=706 evaluations=102 loss=5.0830e-05 seconds=0.1962
+Time step 147/200 t=0.0220
+  Newton 0 residual=7.6896e+00 relative=1.0000e+00
+  Newton 1 residual=7.1192e-02 relative=9.2582e-03
+  Newton 2 residual=2.7794e-05 relative=3.6144e-06
+  Newton 3 residual=4.7096e-11 relative=6.1246e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2582e-01
+  NN samples=706 evaluations=102 loss=5.0559e-05 seconds=0.2123
+Time step 148/200 t=0.0222
+  Newton 0 residual=8.3432e+00 relative=1.0000e+00
+  Newton 1 residual=7.5431e-02 relative=9.0409e-03
+  Newton 2 residual=2.8058e-05 relative=3.3630e-06
+  Newton 3 residual=4.7565e-11 relative=5.7010e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2580e-01
+  NN samples=706 evaluations=102 loss=5.0254e-05 seconds=0.1955
+Time step 149/200 t=0.0223
+  Newton 0 residual=7.6126e+00 relative=1.0000e+00
+  Newton 1 residual=7.0699e-02 relative=9.2872e-03
+  Newton 2 residual=2.6956e-05 relative=3.5409e-06
+  Newton 3 residual=4.4307e-11 relative=5.8202e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2577e-01
+  NN samples=706 evaluations=102 loss=4.9934e-05 seconds=0.1969
+Time step 150/200 t=0.0225
+  Newton 0 residual=8.2810e+00 relative=1.0000e+00
+  Newton 1 residual=7.4605e-02 relative=9.0093e-03
+  Newton 2 residual=2.7505e-05 relative=3.3215e-06
+  Newton 3 residual=4.5165e-11 relative=5.4541e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2574e-01
+  NN samples=706 evaluations=102 loss=4.9533e-05 seconds=0.1974
+Time step 151/200 t=0.0226
+  Newton 0 residual=7.7683e+00 relative=1.0000e+00
+  Newton 1 residual=7.0528e-02 relative=9.0790e-03
+  Newton 2 residual=2.6551e-05 relative=3.4179e-06
+  Newton 3 residual=4.1534e-11 relative=5.3466e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2570e-01
+  NN samples=706 evaluations=102 loss=4.9215e-05 seconds=0.2331
+Time step 152/200 t=0.0228
+  Newton 0 residual=8.3224e+00 relative=1.0000e+00
+  Newton 1 residual=7.4823e-02 relative=8.9905e-03
+  Newton 2 residual=2.7095e-05 relative=3.2557e-06
+  Newton 3 residual=4.1956e-11 relative=5.0414e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2568e-01
+  NN samples=706 evaluations=102 loss=4.8848e-05 seconds=0.1935
+Time step 153/200 t=0.0229
+  Newton 0 residual=7.8525e+00 relative=1.0000e+00
+  Newton 1 residual=7.0641e-02 relative=8.9959e-03
+  Newton 2 residual=2.5998e-05 relative=3.3108e-06
+  Newton 3 residual=3.8579e-11 relative=4.9129e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2564e-01
+  NN samples=706 evaluations=102 loss=4.8540e-05 seconds=0.2030
+Time step 154/200 t=0.0231
+  Newton 0 residual=8.3859e+00 relative=1.0000e+00
+  Newton 1 residual=7.4397e-02 relative=8.8717e-03
+  Newton 2 residual=2.6452e-05 relative=3.1543e-06
+  Newton 3 residual=3.8949e-11 relative=4.6446e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2563e-01
+  NN samples=706 evaluations=102 loss=4.8180e-05 seconds=0.2135
+Time step 155/200 t=0.0232
+  Newton 0 residual=7.9905e+00 relative=1.0000e+00
+  Newton 1 residual=7.0618e-02 relative=8.8378e-03
+  Newton 2 residual=2.5427e-05 relative=3.1821e-06
+  Newton 3 residual=3.5970e-11 relative=4.5016e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2560e-01
+  NN samples=706 evaluations=102 loss=4.7879e-05 seconds=0.1897
+Time step 156/200 t=0.0234
+  Newton 0 residual=8.4570e+00 relative=1.0000e+00
+  Newton 1 residual=7.4211e-02 relative=8.7750e-03
+  Newton 2 residual=2.5898e-05 relative=3.0623e-06
+  Newton 3 residual=3.6355e-11 relative=4.2988e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2560e-01
+  NN samples=706 evaluations=102 loss=4.7543e-05 seconds=0.1838
+Time step 157/200 t=0.0235
+  Newton 0 residual=8.0440e+00 relative=1.0000e+00
+  Newton 1 residual=7.0539e-02 relative=8.7692e-03
+  Newton 2 residual=2.4854e-05 relative=3.0898e-06
+  Newton 3 residual=3.3640e-11 relative=4.1821e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2559e-01
+  NN samples=706 evaluations=102 loss=4.7291e-05 seconds=0.1888
+Time step 158/200 t=0.0237
+  Newton 0 residual=8.2200e+00 relative=1.0000e+00
+  Newton 1 residual=7.3229e-02 relative=8.9086e-03
+  Newton 2 residual=2.5095e-05 relative=3.0528e-06
+  Newton 3 residual=3.3838e-11 relative=4.1165e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2561e-01
+  NN samples=706 evaluations=102 loss=4.7022e-05 seconds=0.2115
+Time step 159/200 t=0.0238
+  Newton 0 residual=7.8319e+00 relative=1.0000e+00
+  Newton 1 residual=7.0211e-02 relative=8.9649e-03
+  Newton 2 residual=2.4160e-05 relative=3.0848e-06
+  Newton 3 residual=3.1805e-11 relative=4.0610e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2563e-01
+  NN samples=706 evaluations=102 loss=4.6787e-05 seconds=0.1865
+Time step 160/200 t=0.0240
+  Newton 0 residual=8.1263e+00 relative=1.0000e+00
+  Newton 1 residual=7.2302e-02 relative=8.8972e-03
+  Newton 2 residual=2.4213e-05 relative=2.9795e-06
+  Newton 3 residual=3.1485e-11 relative=3.8744e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2567e-01
+  NN samples=706 evaluations=102 loss=4.6489e-05 seconds=0.2119
+Time step 161/200 t=0.0241
+  Newton 0 residual=7.9754e+00 relative=1.0000e+00
+  Newton 1 residual=7.0168e-02 relative=8.7981e-03
+  Newton 2 residual=2.3649e-05 relative=2.9653e-06
+  Newton 3 residual=2.9892e-11 relative=3.7480e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2570e-01
+  NN samples=706 evaluations=102 loss=4.6150e-05 seconds=0.1971
+Time step 162/200 t=0.0243
+  Newton 0 residual=8.4530e+00 relative=1.0000e+00
+  Newton 1 residual=7.3169e-02 relative=8.6559e-03
+  Newton 2 residual=2.4127e-05 relative=2.8543e-06
+  Newton 3 residual=2.9428e-11 relative=3.4814e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2574e-01
+  NN samples=706 evaluations=102 loss=4.5912e-05 seconds=0.1965
+Time step 163/200 t=0.0244
+  Newton 0 residual=8.1928e+00 relative=1.0000e+00
+  Newton 1 residual=7.0754e-02 relative=8.6361e-03
+  Newton 2 residual=2.3115e-05 relative=2.8214e-06
+  Newton 3 residual=2.7499e-11 relative=3.3565e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2579e-01
+  NN samples=706 evaluations=102 loss=4.5661e-05 seconds=0.2062
+Time step 164/200 t=0.0246
+  Newton 0 residual=8.5961e+00 relative=1.0000e+00
+  Newton 1 residual=7.3651e-02 relative=8.5679e-03
+  Newton 2 residual=2.3564e-05 relative=2.7413e-06
+  Newton 3 residual=2.7147e-11 relative=3.1581e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2586e-01
+  NN samples=706 evaluations=102 loss=4.5354e-05 seconds=0.1942
+Time step 165/200 t=0.0247
+  Newton 0 residual=8.7583e+00 relative=1.0000e+00
+  Newton 1 residual=7.2488e-02 relative=8.2765e-03
+  Newton 2 residual=2.2764e-05 relative=2.5991e-06
+  Newton 3 residual=2.5075e-11 relative=2.8630e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2592e-01
+  NN samples=706 evaluations=102 loss=4.5168e-05 seconds=0.1880
+Time step 166/200 t=0.0249
+  Newton 0 residual=9.0279e+00 relative=1.0000e+00
+  Newton 1 residual=7.5151e-02 relative=8.3243e-03
+  Newton 2 residual=2.3188e-05 relative=2.5685e-06
+  Newton 3 residual=2.5162e-11 relative=2.7871e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2600e-01
+  NN samples=706 evaluations=102 loss=4.5010e-05 seconds=0.2048
+Time step 167/200 t=0.0250
+  Newton 0 residual=8.6629e+00 relative=1.0000e+00
+  Newton 1 residual=7.2802e-02 relative=8.4038e-03
+  Newton 2 residual=2.2189e-05 relative=2.5614e-06
+  Newton 3 residual=2.3455e-11 relative=2.7075e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2608e-01
+  NN samples=706 evaluations=102 loss=4.4874e-05 seconds=0.1948
+Time step 168/200 t=0.0252
+  Newton 0 residual=8.8604e+00 relative=1.0000e+00
+  Newton 1 residual=7.5671e-02 relative=8.5404e-03
+  Newton 2 residual=2.2635e-05 relative=2.5547e-06
+  Newton 3 residual=2.3396e-11 relative=2.6406e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2616e-01
+  NN samples=706 evaluations=102 loss=4.4663e-05 seconds=0.1844
+Time step 169/200 t=0.0253
+  Newton 0 residual=8.9623e+00 relative=1.0000e+00
+  Newton 1 residual=7.4622e-02 relative=8.3262e-03
+  Newton 2 residual=2.1909e-05 relative=2.4446e-06
+  Newton 3 residual=2.1903e-11 relative=2.4439e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2622e-01
+  NN samples=706 evaluations=102 loss=4.4456e-05 seconds=0.1949
+Time step 170/200 t=0.0255
+  Newton 0 residual=9.5377e+00 relative=1.0000e+00
+  Newton 1 residual=8.0019e-02 relative=8.3897e-03
+  Newton 2 residual=2.2907e-05 relative=2.4017e-06
+  Newton 3 residual=2.1990e-11 relative=2.3056e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2628e-01
+  NN samples=706 evaluations=102 loss=4.4302e-05 seconds=0.2034
+Time step 171/200 t=0.0256
+  Newton 0 residual=9.3457e+00 relative=1.0000e+00
+  Newton 1 residual=7.7604e-02 relative=8.3038e-03
+  Newton 2 residual=2.1799e-05 relative=2.3325e-06
+  Newton 3 residual=2.0021e-11 relative=2.1423e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2632e-01
+  NN samples=706 evaluations=103 loss=4.4355e-05 seconds=0.2040
+Time step 172/200 t=0.0258
+  Newton 0 residual=9.3909e+00 relative=1.0000e+00
+  Newton 1 residual=8.2138e-02 relative=8.7465e-03
+  Newton 2 residual=2.2178e-05 relative=2.3616e-06
+  Newton 3 residual=1.9366e-11 relative=2.0622e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2639e-01
+  NN samples=706 evaluations=102 loss=4.4277e-05 seconds=0.1877
+Time step 173/200 t=0.0259
+  Newton 0 residual=9.3889e+00 relative=1.0000e+00
+  Newton 1 residual=8.1538e-02 relative=8.6845e-03
+  Newton 2 residual=2.1447e-05 relative=2.2843e-06
+  Newton 3 residual=1.8274e-11 relative=1.9463e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2641e-01
+  NN samples=706 evaluations=102 loss=4.3993e-05 seconds=0.1992
+Time step 174/200 t=0.0261
+  Newton 0 residual=1.0291e+01 relative=1.0000e+00
+  Newton 1 residual=8.9478e-02 relative=8.6945e-03
+  Newton 2 residual=2.3298e-05 relative=2.2638e-06
+  Newton 3 residual=1.9134e-11 relative=1.8593e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2643e-01
+  NN samples=706 evaluations=103 loss=4.3907e-05 seconds=0.1878
+Time step 175/200 t=0.0262
+  Newton 0 residual=9.5473e+00 relative=1.0000e+00
+  Newton 1 residual=8.5132e-02 relative=8.9169e-03
+  Newton 2 residual=2.1860e-05 relative=2.2896e-06
+  Newton 3 residual=1.6884e-11 relative=1.7684e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2643e-01
+  NN samples=706 evaluations=102 loss=4.3757e-05 seconds=0.2275
+Time step 176/200 t=0.0264
+  Newton 0 residual=1.0555e+01 relative=1.0000e+00
+  Newton 1 residual=9.4082e-02 relative=8.9134e-03
+  Newton 2 residual=2.3428e-05 relative=2.2196e-06
+  Newton 3 residual=1.7477e-11 relative=1.6558e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2644e-01
+  NN samples=706 evaluations=102 loss=4.3683e-05 seconds=0.1986
+Time step 177/200 t=0.0265
+  Newton 0 residual=9.8995e+00 relative=1.0000e+00
+  Newton 1 residual=9.0051e-02 relative=9.0965e-03
+  Newton 2 residual=2.2083e-05 relative=2.2307e-06
+  Newton 3 residual=1.5551e-11 relative=1.5709e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2643e-01
+  NN samples=706 evaluations=102 loss=4.3619e-05 seconds=0.1877
+Time step 178/200 t=0.0267
+  Newton 0 residual=1.0683e+01 relative=1.0000e+00
+  Newton 1 residual=9.8744e-02 relative=9.2429e-03
+  Newton 2 residual=2.3658e-05 relative=2.2145e-06
+  Newton 3 residual=1.5835e-11 relative=1.4822e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2644e-01
+  NN samples=706 evaluations=102 loss=4.3506e-05 seconds=0.2112
+Time step 179/200 t=0.0268
+  Newton 0 residual=1.0341e+01 relative=1.0000e+00
+  Newton 1 residual=9.5665e-02 relative=9.2511e-03
+  Newton 2 residual=2.2536e-05 relative=2.1793e-06
+  Newton 3 residual=1.4579e-11 relative=1.4098e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2641e-01
+  NN samples=706 evaluations=102 loss=4.3234e-05 seconds=0.2453
+Time step 180/200 t=0.0270
+  Newton 0 residual=1.1381e+01 relative=1.0000e+00
+  Newton 1 residual=1.0559e-01 relative=9.2778e-03
+  Newton 2 residual=2.4751e-05 relative=2.1748e-06
+  Newton 3 residual=1.5494e-11 relative=1.3615e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2640e-01
+  NN samples=706 evaluations=102 loss=4.3125e-05 seconds=0.2010
+Time step 181/200 t=0.0271
+  Newton 0 residual=1.0248e+01 relative=1.0000e+00
+  Newton 1 residual=9.7927e-02 relative=9.5557e-03
+  Newton 2 residual=2.3247e-05 relative=2.2685e-06
+  Newton 3 residual=1.3650e-11 relative=1.3319e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2638e-01
+  NN samples=706 evaluations=102 loss=4.2874e-05 seconds=0.1993
+Time step 182/200 t=0.0273
+  Newton 0 residual=1.1520e+01 relative=1.0000e+00
+  Newton 1 residual=1.0896e-01 relative=9.4582e-03
+  Newton 2 residual=2.5095e-05 relative=2.1783e-06
+  Newton 3 residual=1.4284e-11 relative=1.2399e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2638e-01
+  NN samples=706 evaluations=104 loss=4.2792e-05 seconds=0.2095
+Time step 183/200 t=0.0274
+  Newton 0 residual=1.0188e+01 relative=1.0000e+00
+  Newton 1 residual=1.0030e-01 relative=9.8450e-03
+  Newton 2 residual=2.3635e-05 relative=2.3198e-06
+  Newton 3 residual=1.2573e-11 relative=1.2341e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2634e-01
+  NN samples=706 evaluations=103 loss=4.2651e-05 seconds=0.1936
+Time step 184/200 t=0.0276
+  Newton 0 residual=1.1096e+01 relative=1.0000e+00
+  Newton 1 residual=1.0846e-01 relative=9.7746e-03
+  Newton 2 residual=2.5171e-05 relative=2.2685e-06
+  Newton 3 residual=1.2833e-11 relative=1.1565e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2635e-01
+  NN samples=706 evaluations=102 loss=4.2314e-05 seconds=0.1925
+Time step 185/200 t=0.0277
+  Newton 0 residual=1.0554e+01 relative=1.0000e+00
+  Newton 1 residual=1.0125e-01 relative=9.5937e-03
+  Newton 2 residual=2.3606e-05 relative=2.2367e-06
+  Newton 3 residual=1.2000e-11 relative=1.1370e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2630e-01
+  NN samples=706 evaluations=102 loss=4.1939e-05 seconds=0.1970
+Time step 186/200 t=0.0279
+  Newton 0 residual=1.1815e+01 relative=1.0000e+00
+  Newton 1 residual=1.1197e-01 relative=9.4768e-03
+  Newton 2 residual=2.5517e-05 relative=2.1597e-06
+  Newton 3 residual=1.2458e-11 relative=1.0544e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2629e-01
+  NN samples=706 evaluations=102 loss=4.1552e-05 seconds=0.2229
+Time step 187/200 t=0.0280
+  Newton 0 residual=9.8738e+00 relative=1.0000e+00
+  Newton 1 residual=9.5749e-02 relative=9.6973e-03
+  Newton 2 residual=2.3739e-05 relative=2.4043e-06
+  Newton 3 residual=1.1664e-11 relative=1.1813e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2624e-01
+  NN samples=706 evaluations=102 loss=4.1180e-05 seconds=0.1961
+Time step 188/200 t=0.0282
+  Newton 0 residual=1.1063e+01 relative=1.0000e+00
+  Newton 1 residual=1.0620e-01 relative=9.5995e-03
+  Newton 2 residual=2.4870e-05 relative=2.2480e-06
+  Newton 3 residual=1.1732e-11 relative=1.0604e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2623e-01
+  NN samples=706 evaluations=102 loss=4.0931e-05 seconds=0.2133
+Time step 189/200 t=0.0283
+  Newton 0 residual=9.7151e+00 relative=1.0000e+00
+  Newton 1 residual=9.4236e-02 relative=9.6999e-03
+  Newton 2 residual=2.3351e-05 relative=2.4036e-06
+  Newton 3 residual=1.0488e-11 relative=1.0795e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2620e-01
+  NN samples=706 evaluations=102 loss=4.0506e-05 seconds=0.2119
+Time step 190/200 t=0.0285
+  Newton 0 residual=1.0821e+01 relative=1.0000e+00
+  Newton 1 residual=1.0187e-01 relative=9.4142e-03
+  Newton 2 residual=2.4234e-05 relative=2.2396e-06
+  Newton 3 residual=1.1093e-11 relative=1.0251e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2618e-01
+  NN samples=706 evaluations=102 loss=4.0194e-05 seconds=0.1989
+Time step 191/200 t=0.0286
+  Newton 0 residual=9.1824e+00 relative=1.0000e+00
+  Newton 1 residual=8.9144e-02 relative=9.7082e-03
+  Newton 2 residual=2.2551e-05 relative=2.4559e-06
+  Newton 3 residual=9.6941e-12 relative=1.0557e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2614e-01
+  NN samples=706 evaluations=102 loss=3.9555e-05 seconds=0.1891
+Time step 192/200 t=0.0288
+  Newton 0 residual=9.6973e+00 relative=1.0000e+00
+  Newton 1 residual=9.2492e-02 relative=9.5380e-03
+  Newton 2 residual=2.3083e-05 relative=2.3804e-06
+  Newton 3 residual=1.0387e-11 relative=1.0711e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2613e-01
+  NN samples=706 evaluations=102 loss=3.9199e-05 seconds=0.1954
+Time step 193/200 t=0.0289
+  Newton 0 residual=8.5002e+00 relative=1.0000e+00
+  Newton 1 residual=8.4347e-02 relative=9.9229e-03
+  Newton 2 residual=2.1718e-05 relative=2.5550e-06
+  Newton 3 residual=8.9692e-12 relative=1.0552e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2608e-01
+  NN samples=706 evaluations=102 loss=3.8811e-05 seconds=0.2126
+Time step 194/200 t=0.0291
+  Newton 0 residual=9.4894e+00 relative=1.0000e+00
+  Newton 1 residual=8.8641e-02 relative=9.3411e-03
+  Newton 2 residual=2.1722e-05 relative=2.2891e-06
+  Newton 3 residual=9.3464e-12 relative=9.8493e-13
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2607e-01
+  NN samples=706 evaluations=102 loss=3.8510e-05 seconds=0.1946
+Time step 195/200 t=0.0292
+  Newton 0 residual=8.4884e+00 relative=1.0000e+00
+  Newton 1 residual=8.0022e-02 relative=9.4273e-03
+  Newton 2 residual=2.0454e-05 relative=2.4096e-06
+  Newton 3 residual=8.3685e-12 relative=9.8587e-13
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2602e-01
+  NN samples=706 evaluations=102 loss=3.8006e-05 seconds=0.2212
+Time step 196/200 t=0.0294
+  Newton 0 residual=8.5467e+00 relative=1.0000e+00
+  Newton 1 residual=7.9833e-02 relative=9.3409e-03
+  Newton 2 residual=1.9924e-05 relative=2.3312e-06
+  Newton 3 residual=8.6061e-12 relative=1.0070e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2600e-01
+  NN samples=706 evaluations=102 loss=3.7656e-05 seconds=0.1834
+Time step 197/200 t=0.0295
+  Newton 0 residual=7.8196e+00 relative=1.0000e+00
+  Newton 1 residual=7.3784e-02 relative=9.4358e-03
+  Newton 2 residual=1.8658e-05 relative=2.3861e-06
+  Newton 3 residual=7.5261e-12 relative=9.6246e-13
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2594e-01
+  NN samples=706 evaluations=102 loss=3.7137e-05 seconds=0.2016
+Time step 198/200 t=0.0297
+  Newton 0 residual=7.8445e+00 relative=1.0000e+00
+  Newton 1 residual=7.3572e-02 relative=9.3788e-03
+  Newton 2 residual=1.8266e-05 relative=2.3285e-06
+  Newton 3 residual=7.8628e-12 relative=1.0023e-12
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2592e-01
+  NN samples=706 evaluations=102 loss=3.6737e-05 seconds=0.2056
+Time step 199/200 t=0.0298
+  Newton 0 residual=7.4454e+00 relative=1.0000e+00
+  Newton 1 residual=6.9669e-02 relative=9.3574e-03
+  Newton 2 residual=1.7431e-05 relative=2.3412e-06
+  Newton 3 residual=6.6867e-12 relative=8.9809e-13
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2586e-01
+  NN samples=706 evaluations=102 loss=3.6308e-05 seconds=0.1824
+Time step 200/200 t=0.0300
+  Newton 0 residual=7.3491e+00 relative=1.0000e+00
+  Newton 1 residual=6.8513e-02 relative=9.3227e-03
+  Newton 2 residual=1.6669e-05 relative=2.2681e-06
+  Newton 3 residual=7.2456e-12 relative=9.8592e-13
+  Adapt 1 cells=577 dofs=706 relative_eta=4.2583e-01
+  NN samples=706 evaluations=102 loss=3.5997e-05 seconds=0.2268

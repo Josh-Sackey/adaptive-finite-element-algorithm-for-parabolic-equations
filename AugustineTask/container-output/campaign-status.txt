@@ -1,0 +1,12 @@
+2026-11-10 14:11:21  Campaign start: smoke baseline time-fine spatial-fine production (OMP_NUM_THREADS=4)
+2026-11-10 14:11:21  START smoke
+2026-11-10 14:11:33  DONE  smoke  (12 s)
+2026-11-10 14:11:33  START baseline
+2026-11-10 14:12:22  DONE  baseline  (49 s)
+2026-11-10 14:12:22  START time-fine
+2026-11-10 14:13:42  DONE  time-fine  (80 s)
+2026-11-10 14:13:42  START spatial-fine
+2026-11-10 14:15:26  DONE  spatial-fine  (104 s)
+2026-11-10 14:15:26  START production
+2026-11-10 14:18:18  DONE  production  (172 s)
+2026-11-10 14:18:18  Campaign finished
